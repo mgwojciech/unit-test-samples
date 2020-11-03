@@ -1,9 +1,0 @@
-{
-    "authenticationConfiguration": {
-      "username": "admin@mwdevvalo.onmicrosoft.com",
-      "password": "SharePoint1990#", 
-      "online": true
-    },
-    "siteUrl" : "https://mwdevvalo.sharepoint.com",
-    "runConfiguration": 2
-  }

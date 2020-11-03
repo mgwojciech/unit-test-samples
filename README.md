@@ -2,7 +2,7 @@
 This repository will try to present to You how You can start unit testing in Your project.
 If You have any questions or You want me to create specific sample create new issue or ping me on twitter @mgwojciech 
 
-# MGWDev.GraphSDK.UT
+# MGWDev.GraphSDK.UT (.NET)
 This solution shows how You can use mock IHttpProvider to test the part of Your code that uses Microsoft Graph SDK.
 
 ## Overview
@@ -30,3 +30,7 @@ You can find a test for that in unit-tests-samples\MGWDev.GraphSDK.UT\MGWDevGrap
 GraphListItemProviderTests class is event a little bit more complex as there are FieldMapper classes that map the ListItem object to Domain entities.
 Thanks to that our domain code will never have to be aware of the details implementation of data access layer.
 You can find how I setup the test in unit-tests-samples\MGWDev.GraphSDK.UT\MGWDevGraphSDK.UT.Tests\Graph\GraphListItemProviderTests.cs
+
+# message-bar (SPFx)
+This solution demonstrates how You can easily mock webpart/extension context in You components as well as in You data access layer.
+There are multiple approaches to unit tests in the solution, You can read abour it more in series on my [blog](https://mgwdevcom.wordpress.com/2020/02/17/extend-spfx-solution-testability-lets-start)

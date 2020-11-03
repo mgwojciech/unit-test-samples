@@ -36,7 +36,7 @@ namespace MGWDevGraphSDK.UT.Tests.Mock
         {
             return Task.Run(() =>
             {
-                string key = "GET:" + request.RequestUri.ToString();
+                string key = request.Method.ToString() + ":" + request.RequestUri.ToString();
                 HttpResponseMessage response = new HttpResponseMessage();
                 if(OnRequestExecuting!= null)
                 {

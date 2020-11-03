@@ -17,6 +17,7 @@ namespace MGWDevGraphSDK.UT.Tests.Graph
         [TestMethod]
         public void GraphUserInfoProvider_Test_GetCurrentUser()
         {
+            //Arrange
             MockHttpProvider mockHttpProvider = new MockHttpProvider();
             mockHttpProvider.Responses.Add("GET:https://graph.microsoft.com/v1.0/me", new User()
             {
@@ -35,11 +36,13 @@ namespace MGWDevGraphSDK.UT.Tests.Graph
                 }
             });
 
+            //Act
             GraphServiceClient client = new GraphServiceClient(new MockAuthenticationHelper(), mockHttpProvider);
             GraphUserInfoProvider userInfoProvider = new GraphUserInfoProvider(client, "test-site-id");
 
             FieldUser user = userInfoProvider.GetCurrentUserInfo();
 
+            //Assert
             Assert.AreEqual("Test User", user.DisplayName);
             Assert.AreEqual("test.user@test.domain.com", user.Email);
             Assert.AreEqual("test-user-id", user.Id);

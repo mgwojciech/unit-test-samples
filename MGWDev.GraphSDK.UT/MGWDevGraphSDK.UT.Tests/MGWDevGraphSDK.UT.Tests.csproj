@@ -81,6 +81,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Graph\GraphListItemProviderTests.cs" />
     <Compile Include="Graph\GraphUserInfoProviderTests.cs" />
     <Compile Include="Graph\MeEndpointTests.cs" />
     <Compile Include="Mock\MockAuthenticationHelper.cs" />

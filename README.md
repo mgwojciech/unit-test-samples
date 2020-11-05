@@ -32,5 +32,5 @@ Thanks to that our domain code will never have to be aware of the details implem
 You can find how I setup the test in unit-tests-samples\MGWDev.GraphSDK.UT\MGWDevGraphSDK.UT.Tests\Graph\GraphListItemProviderTests.cs
 
 # message-bar (SPFx)
-This solution demonstrates how You can easily mock webpart/extension context in You components as well as in the data access layer.
+This solution demonstrates how You can easily mock webpart/extension context in Your components as well as in the data access layer.
 There are multiple approaches to unit tests in the solution, You can read about it more in a series on my [blog](https://mgwdevcom.wordpress.com/2020/02/17/extend-spfx-solution-testability-lets-start)

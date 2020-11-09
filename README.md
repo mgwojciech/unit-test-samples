@@ -35,7 +35,7 @@ You can find how I setup the test in unit-tests-samples\MGWDev.GraphSDK.UT\MGWDe
 This solution demonstrates how You can easily mock webpart/extension context in Your components as well as in the data access layer.
 There are multiple approaches to unit tests in the solution, You can read about it more in a series on my [blog](https://mgwdevcom.wordpress.com/2020/02/17/extend-spfx-solution-testability-lets-start)
 
-# team-calendar
+# team-calendar (SPFx)
 This sample is focused on Office Graph API mock. The implemented web part gets teams context either from WebPartContext or from query string and uses groupId to query Graph API endpoint for events in this group.
 Due to the nature of ootb graph client we have to mock three classes (GraphClient, GraphClientFactory and GraphRequest). Note, I implemented only methods I needed in my tests, thanks to that, the solution is quite light.
 Similarly to the .NET solution, we can use Graph Explorer to quickly create mocks for our requests. 

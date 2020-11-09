@@ -35,7 +35,7 @@ describe("TeamsEventsProvider", () => {
                                 "timeZone": "UTC"
                             },
                             "onlineMeeting": {
-                                "joinUrl": "https://teams.microsoft.com/l/meetup-join/19%3a3c409a3647594c57877adc3b6c4d87ab%40thread.tacv2/1604514758193?context=%7b%22Tid%22%3a%226bf6c4ac-66c5-453d-b839-578a5c34990c%22%2c%22Oid%22%3a%221ac5ef14-61f1-47c8-b14b-13a393f0e4cf%22%7d"
+                                "joinUrl": "https://teams.microsoft.com/l/meetup-join/19%3a3c409a3647594c57877adc3b6c4d87ab%40thread.tacv2/1604514758193?context=%7b%22Tid%22%3a%226bf6c4ac-6adc5-453d-b839-578a5c34990c%22%2c%22Oid%22%3a%221ac5ef14-61f1-47c8-b14b-13a393f0e4cf%22%7d"
                             }
                         }]
                 })

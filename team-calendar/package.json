@@ -9,7 +9,7 @@
   "scripts": {
     "build": "gulp bundle",
     "clean": "gulp clean",
-    "test": "gulp test"
+    "test": "npm jest"
   },
   "dependencies": {
     "@fullcalendar/daygrid": "^5.3.2",
@@ -70,10 +70,5 @@
       "@microsoft/sp-property-pane": "identity-obj-proxy",
       "@microsoft/sp-loader": "identity-obj-proxy"
     }
-  },
-  "jest-junit": {
-    "outputDirectory": "./tests",
-    "outputName": "valo-teams-wp-tests.xml",
-    "uniqueOutputName": "false"
   }
 }

@@ -79,7 +79,7 @@ namespace MGWDevGraphSDK.UT.Tests.Graph
             GraphServiceClient client = new GraphServiceClient(new MockAuthenticationHelper(), mockHttpProvider);
             var response = client.Me.MemberOf.Request().GetAsync().Result;
 
-            Assert.AreEqual("Test User", response.FirstOrDefault());
+            Assert.AreEqual("d17a5f86-57f4-48f8-87a0-79761dc8e706", response.FirstOrDefault().Id);
         }
     }
 }

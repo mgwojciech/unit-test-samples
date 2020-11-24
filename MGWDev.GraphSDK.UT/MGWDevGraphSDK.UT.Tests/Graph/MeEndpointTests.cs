@@ -115,7 +115,7 @@ namespace MGWDevGraphSDK.UT.Tests.Graph
             var response = client.Me.MemberOf.Request().GetAsync().Result;
 
             Assert.AreEqual("d17a5f86-57f4-48f8-87a0-79761dc8e706", response.FirstOrDefault().Id);
-            Assert.AreEqual("Fashion Events", response.FirstOrDefault().AdditionalData["displayName"]);
+            Assert.AreEqual("Group", response.FirstOrDefault().GetType().Name);
         }
     }
 }

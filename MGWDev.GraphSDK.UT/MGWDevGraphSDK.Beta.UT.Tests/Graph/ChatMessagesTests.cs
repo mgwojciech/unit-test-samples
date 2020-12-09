@@ -38,5 +38,51 @@ namespace MGWDevGraphSDK.Beta.UT.Tests.Graph
             Assert.AreEqual("test-chat-id-1", response.FirstOrDefault().ChatId);
             Assert.AreEqual("test-id-1", response.FirstOrDefault().Id);
         }
+        [TestMethod]
+        public void ChatMessages_Test_GetUserChatMessages_Pagination()
+        {
+            string requestUrl = "https://graph.microsoft.com/beta/users/1/chats/microsoft.graph.allMessages";
+            string requestUrlNextPage = "https://graph.microsoft.com/beta/users/1/chats/microsoft.graph.allMessages?nextpage=2";
+            MockHttpProvider mockHttpProvider = new MockHttpProvider();
+
+            mockHttpProvider.Responses.Add("GET:" + requestUrl, new MockPagedResponse<ChatMessage>()
+            {
+                NextLink = requestUrlNextPage,
+                Value = new List<ChatMessage>()
+                {
+                    new ChatMessage(){
+                        ChatId = "test-chat-id-1",
+                        Id = "test-id-1"
+                    },
+                    new ChatMessage(){
+                        ChatId = "test-chat-id-1",
+                        Id = "test-id-2"
+                    }
+                }
+            });
+            mockHttpProvider.Responses.Add("GET:" + requestUrlNextPage, new MockPagedResponse<ChatMessage>()
+            {
+                Value = new List<ChatMessage>()
+                {
+                    new ChatMessage(){
+                        ChatId = "test-chat-id-2",
+                        Id = "test-id-3"
+                    },
+                    new ChatMessage(){
+                        ChatId = "test-chat-id-2",
+                        Id = "test-id-4"
+                    }
+                }
+            });
+            GraphServiceClient client = new GraphServiceClient(new MockAuthenticationHelper(), mockHttpProvider);
+            var response = client.Users["1"].Chats.AllMessages().Request().GetAsync().Result;
+
+            Assert.AreEqual("test-chat-id-1", response.FirstOrDefault().ChatId);
+            Assert.AreEqual("test-id-1", response.FirstOrDefault().Id);
+
+            var secondPageResponse = response.NextPageRequest.GetAsync().Result;
+            Assert.AreEqual("test-chat-id-2", secondPageResponse.FirstOrDefault().ChatId);
+            Assert.AreEqual("test-id-3", secondPageResponse.FirstOrDefault().Id);
+        }
     }
 }

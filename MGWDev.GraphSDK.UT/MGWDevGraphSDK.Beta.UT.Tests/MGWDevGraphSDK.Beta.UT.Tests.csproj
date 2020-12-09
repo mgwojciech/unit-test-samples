@@ -82,6 +82,7 @@
     <Compile Include="Graph\ChatMessagesTests.cs" />
     <Compile Include="Mock\MockAuthenticationHelper.cs" />
     <Compile Include="Mock\MockHttpProvider.cs" />
+    <Compile Include="Mock\MockPagedResponse.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

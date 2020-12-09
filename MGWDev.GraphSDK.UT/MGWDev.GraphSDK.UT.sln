@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGWDev.GraphSDK.UT.Lib", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGWDev.GraphSDK.UT.Graph", "MGWDev.GraphSDK.UT.Graph\MGWDev.GraphSDK.UT.Graph.csproj", "{5CFE7F2C-4196-4933-9BD3-E99ABC1C4A61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGWDevGraphSDK.Beta.UT.Tests", "MGWDevGraphSDK.Beta.UT.Tests\MGWDevGraphSDK.Beta.UT.Tests.csproj", "{6224BF64-405D-4E2B-B4FF-682382845F42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5CFE7F2C-4196-4933-9BD3-E99ABC1C4A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CFE7F2C-4196-4933-9BD3-E99ABC1C4A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CFE7F2C-4196-4933-9BD3-E99ABC1C4A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6224BF64-405D-4E2B-B4FF-682382845F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6224BF64-405D-4E2B-B4FF-682382845F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6224BF64-405D-4E2B-B4FF-682382845F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6224BF64-405D-4E2B-B4FF-682382845F42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

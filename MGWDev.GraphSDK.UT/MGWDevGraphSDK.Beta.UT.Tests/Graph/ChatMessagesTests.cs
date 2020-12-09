@@ -84,5 +84,44 @@ namespace MGWDevGraphSDK.Beta.UT.Tests.Graph
             Assert.AreEqual("test-chat-id-2", secondPageResponse.FirstOrDefault().ChatId);
             Assert.AreEqual("test-id-3", secondPageResponse.FirstOrDefault().Id);
         }
+        [TestMethod]
+        public void ChatMessages_Test_GetUserChatMessages_Batch()
+        {
+            MockHttpProvider mockHttpProvider = new MockHttpProvider();
+
+            GraphServiceClient client = new GraphServiceClient(new MockAuthenticationHelper(), mockHttpProvider);
+            var request = client.Users["1"].Chats.AllMessages().Request();
+
+            var batchRequestContent = new BatchRequestContent();
+            var batchId = batchRequestContent.AddBatchRequestStep(request);
+
+            mockHttpProvider.Responses.Add("POST:https://graph.microsoft.com/beta/$batch", new
+            {
+                responses = new List<object>()
+                {
+                    new {
+                        id = batchId,
+                        body = new List<ChatMessage>() {
+                            new ChatMessage(){
+                                ChatId = "test-chat-id-1",
+                                Id = "test-id-1"
+                            },
+                            new ChatMessage(){
+                                ChatId = "test-chat-id-1",
+                                Id = "test-id-2"
+                            }
+                        }
+                    }
+                }
+            });
+
+            var batchResponse = client.Batch.Request().PostAsync(batchRequestContent).Result;
+            var chatMessagesResponse = batchResponse.GetResponseByIdAsync(batchId).Result;
+
+            IChatAllMessagesCollectionPage response = mockHttpProvider.Serializer.DeserializeObject<IChatAllMessagesCollectionPage>(chatMessagesResponse.Content.ReadAsStringAsync().Result);
+            Assert.AreEqual("test-chat-id-1", response.FirstOrDefault().ChatId);
+            Assert.AreEqual("test-id-1", response.FirstOrDefault().Id);
+
+        }
     }
 }

@@ -40,5 +40,5 @@ This sample is focused on Office Graph API mock. The implemented web part gets t
 Due to the nature of ootb graph client we have to mock three classes (GraphClient, GraphClientFactory and GraphRequest). Note, I implemented only methods I needed in my tests, thanks to that, the solution is quite light.
 Similarly to the .NET solution, we can use Graph Explorer to quickly create mocks for our requests. 
 
-#copy-item-list-ext
+# copy-item-list-ext
 See [Read me](https://github.com/mgwojciech/unit-test-samples/blob/main/copy-item-list-ext/README.md)

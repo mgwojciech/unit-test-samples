@@ -39,3 +39,6 @@ There are multiple approaches to unit tests in the solution, You can read about 
 This sample is focused on Office Graph API mock. The implemented web part gets teams context either from WebPartContext or from query string and uses groupId to query Graph API endpoint for events in this group.
 Due to the nature of ootb graph client we have to mock three classes (GraphClient, GraphClientFactory and GraphRequest). Note, I implemented only methods I needed in my tests, thanks to that, the solution is quite light.
 Similarly to the .NET solution, we can use Graph Explorer to quickly create mocks for our requests. 
+
+#copy-item-list-ext
+See [Read me](https://github.com/mgwojciech/unit-test-samples/blob/main/copy-item-list-ext/README.md)

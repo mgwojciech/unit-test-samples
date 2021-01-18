@@ -1,0 +1,61 @@
+{
+  /**
+   * Install Chrome Debugger Extension for Visual Studio Code to debug your components with the
+   * Chrome browser: https://aka.ms/spfx-debugger-extensions
+   */
+  "version": "0.2.0",
+  "configurations": [{
+      "name": "Local workbench",
+      "type": "chrome",
+      "request": "launch",
+      "url": "https://localhost:4321/temp/workbench.html",
+      "webRoot": "${workspaceRoot}",
+      "sourceMaps": true,
+      "sourceMapPathOverrides": {
+        "webpack:///.././src/*": "${webRoot}/src/*",
+        "webpack:///../../../src/*": "${webRoot}/src/*",
+        "webpack:///../../../../src/*": "${webRoot}/src/*",
+        "webpack:///../../../../../src/*": "${webRoot}/src/*"
+      },
+      "runtimeArgs": [
+        "--remote-debugging-port=9222"
+      ]
+    },
+    {
+      "name": "Hosted workbench",
+      "type": "chrome",
+      "request": "launch",
+      "url": "https://enter-your-SharePoint-site/_layouts/workbench.aspx",
+      "webRoot": "${workspaceRoot}",
+      "sourceMaps": true,
+      "sourceMapPathOverrides": {
+        "webpack:///.././src/*": "${webRoot}/src/*",
+        "webpack:///../../../src/*": "${webRoot}/src/*",
+        "webpack:///../../../../src/*": "${webRoot}/src/*",
+        "webpack:///../../../../../src/*": "${webRoot}/src/*"
+      },
+      "runtimeArgs": [
+        "--remote-debugging-port=9222",
+        "-incognito"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Jest current",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "args": [
+        "${fileBasenameNoExtension}",
+        "--silent"
+      ],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "localRoot": "${workspaceRoot}",
+      "remoteRoot": "${workspaceFolder}",
+      "disableOptimisticBPs": true,
+      "windows": {
+        "program": "${workspaceFolder}/node_modules/jest-cli/bin/jest",
+      }
+    }
+  ]
+}

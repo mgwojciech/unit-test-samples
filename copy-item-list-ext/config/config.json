@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "copy-item-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/copyItem/CopyItemCommandSet.js",
+          "manifest": "./src/extensions/copyItem/CopyItemCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "react": {
+      "path": "//",
+      "globalName": "React"
+    },
+    "react-dom": {
+      "path": "//",
+      "globalName": "ReactDOM"
+    }
+  },
+  "localizedResources": {
+    "CopyItemCommandSetStrings": "lib/extensions/copyItem/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

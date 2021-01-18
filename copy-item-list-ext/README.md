@@ -1,26 +1,6 @@
 ## copy-item-list-ext
 
-This is where you include your WebPart documentation.
+To execute tests run npx jest --coverage
 
-### Building the code
-
-```bash
-git clone the repo
-npm i
-npm i -g gulp
-gulp
-```
-
-This package produces the following:
-
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
-
-### Build options
-
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+This sample is list view extension. Once You deploy it to Your site collection You will be able to select few list items and copy them (with possibility to exclude few fields).
+Note You might need to change ListTemplateId.

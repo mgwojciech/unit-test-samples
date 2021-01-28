@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGWDev.PnPFramework.UT", "MGWDev.PnPFramework.UT\MGWDev.PnPFramework.UT.csproj", "{605D37E7-B4A1-4ED4-BB92-42E056203C43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGWDev.PnPFramework.Lib", "MGWDev.PnPFramework.Lib\MGWDev.PnPFramework.Lib.csproj", "{84A967D5-25F4-4C08-ACC1-191CAD865B9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{605D37E7-B4A1-4ED4-BB92-42E056203C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605D37E7-B4A1-4ED4-BB92-42E056203C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605D37E7-B4A1-4ED4-BB92-42E056203C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605D37E7-B4A1-4ED4-BB92-42E056203C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A967D5-25F4-4C08-ACC1-191CAD865B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A967D5-25F4-4C08-ACC1-191CAD865B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A967D5-25F4-4C08-ACC1-191CAD865B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A967D5-25F4-4C08-ACC1-191CAD865B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03EC6309-02FC-4769-BE2B-F2D77A5E24A9}
+	EndGlobalSection
+EndGlobal

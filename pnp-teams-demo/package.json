@@ -9,7 +9,7 @@
   "scripts": {
     "build": "gulp bundle",
     "clean": "gulp clean",
-    "test": "gulp test"
+    "test": "jest --silent"
   },
   "dependencies": {
     "@microsoft/sp-core-library": "1.10.0",
@@ -63,6 +63,10 @@
       "@ms/sp-telemetry": "identity-obj-proxy",
       "@microsoft/sp-webpart-base": "identity-obj-proxy",
       "@microsoft/sp-application-base": "identity-obj-proxy",
+      "@pnp/spfx-controls-react/lib/controls/dashboard/Dashboard": "identity-obj-proxy",
+      "@pnp/spfx-controls-react/lib/controls/dashboard/widget/IWidget": "identity-obj-proxy",
+      "office-ui-fabric-react/lib/components/Icon/Icon": "identity-obj-proxy",
+      "@pnp/spfx-controls-react/lib/common/utilities/ThemeUtility": "identity-obj-proxy",
       "^PnPDemoWebPartWebPartStrings": "identity-obj-proxy",
       "^resx-strings/en-us.json": "<rootDir>/node_modules/@microsoft/sp-core-library/lib/resx-strings/en-us.json",
       "\\.(css|scss)$": "identity-obj-proxy"

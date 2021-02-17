@@ -162,7 +162,7 @@ export default class PnPDemoWebPart extends React.Component<IPnPDemoWebPartProps
           { id: "filter-group-3-item-1", title: "Item 1" },
           {
             id: "filter-group-3-group-2",
-            title: "Modified stems",
+            title: "Filter group 3 sub group 2",
             items: [
               { id: "filter-group-3-group-2-item-1", title: "Item 1" },
               { id: "filter-group-3-group-2-item-2", title: "Item 2" },

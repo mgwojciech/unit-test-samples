@@ -29,5 +29,27 @@ namespace MGWDev.PnPFramework.Lib
                 Modified = item.LastModifiedDateTime()
             }).ToList();
         }
+        public void AddItem(MyTestListItem item)
+        {
+            CamlQuery camlQuery = new CamlQuery()
+            {
+                ViewXml = $"<View><Query><Where><Eq><FieldRef Name='ID' /><Value Type='Counter'>{item.Id}</Value></Eq></Where></Query></View>"
+            };
+            List approvedTabsList = Context.Web.Lists.GetByTitle("ListTitle");
+            ListItemCollection approvedTabs = approvedTabsList.GetItems(camlQuery);
+            Context.Load(approvedTabs);
+            Context.ExecuteQuery();
+
+            ListItem approvedTabItem = approvedTabs.FirstOrDefault();
+            if (approvedTabItem == null)
+            {
+                ListItemCreationInformation approvedTabCI = new ListItemCreationInformation();
+                approvedTabItem = approvedTabsList.AddItem(approvedTabCI);
+            }
+            approvedTabItem["Title"] = item.Title;
+
+            approvedTabItem.Update();
+            Context.ExecuteQuery();
+        }
     }
 }

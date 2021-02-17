@@ -90,5 +90,55 @@ namespace MGWDev.PnPFramework.UT
                 var myItems = provider.GetMyItems();
             }
         }
+        [TestMethod]
+        public void ListItemProvider_Test_AddItems_NoItemExists()
+        {
+            using (ClientContext context = new ClientContext("https://test.sharepoint.com/sites/test"))
+            {
+                MockEntryResponseProvider responseProvider = new MockEntryResponseProvider();
+                responseProvider.ResponseEntries.Add(new MockResponseEntry<object>()
+                {
+                    Url = "https://test.sharepoint.com/sites/test",
+                    Method = "GetItems",
+                    ReturnValue = new
+                    {
+                        _ObjectType_ = "SP.ListItemCollection",
+                        _Child_Items_ = new List<object>()
+                        {
+                        }
+                    }
+                });
+                responseProvider.ResponseEntries.Add(new MockResponseEntry<object>()
+                {
+                    Url = "https://test.sharepoint.com/sites/test",
+                    Method = "AddItem",
+                    ReturnValue = new
+                    {
+                        _ObjectType_ = "SP.ListItem",
+                        Id = 1
+                    }
+                });
+                responseProvider.ResponseEntries.Add(new MockResponseEntry<object>()
+                {
+                    Url = "https://test.sharepoint.com/sites/test",
+                    Method = "Update",
+                    ReturnValue = new
+                    {
+                        _ObjectType_ = "SP.ListItem",
+                        Id = 1,
+                        Title = "Test title"
+                    }
+                });
+                MockWebRequestExecutorFactory executorFactory = new MockWebRequestExecutorFactory(responseProvider);
+                context.WebRequestExecutorFactory = executorFactory;
+
+                ListItemProvider provider = new ListItemProvider(context);
+                provider.AddItem(new Lib.Model.MyTestListItem()
+                {
+                    Id = 1,
+                    Title = "Title"
+                });
+            }
+        }
     }
 }

@@ -42,3 +42,6 @@ Similarly to the .NET solution, we can use Graph Explorer to quickly create mock
 
 # copy-item-list-ext
 See [Read me](https://github.com/mgwojciech/unit-test-samples/blob/main/copy-item-list-ext/README.md)
+
+# PnPFramework.UT
+See [Read me](https://github.com/mgwojciech/unit-test-samples/blob/main/MGWDev.PnPFramework.UT/README.md)

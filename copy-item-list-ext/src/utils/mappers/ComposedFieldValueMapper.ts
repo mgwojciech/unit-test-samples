@@ -3,14 +3,14 @@ import { BooleanFieldValueMapper } from "./BooleanFieldValueMapper";
 import { DateTimeFieldValueMapper } from "./DateTimeFieldValueMapper";
 import { IFieldValueMapper } from "./IFieldValueMapper";
 import { LookupFieldValueMapper } from "./LookupFieldValueMapper";
-import { UserFieldValueMapper } from "./UserFieldValueMapper";
+import { MultiUserFieldValueMapper } from "./UserFieldValueMapper";
 
 export class ComposedFieldValueMapper implements IFieldValueMapper {
     public fieldValueMappers: IFieldValueMapper[] = [
         new DateTimeFieldValueMapper(),
         new LookupFieldValueMapper(),
         new BooleanFieldValueMapper(),
-        new UserFieldValueMapper()
+        new MultiUserFieldValueMapper()
     ];
     public supportedFieldTypes: string[] = [];
     constructor() {
@@ -26,7 +26,7 @@ export class ComposedFieldValueMapper implements IFieldValueMapper {
                 name: field.InternalName,
                 type: field.TypeAsString,
                 value: item[field.InternalName]
-            }
+            };
         }
     }
 }

@@ -3,10 +3,10 @@
 import { assert } from "chai";
 import { Constants } from "../../src/model/Constants";
 import { BooleanFieldValueMapper } from "../../src/utils/mappers/BooleanFieldValueMapper"
-import { ComposedFieldValueMapper } from "../../src/utils/mappers/ComposedFIeldValueMapper";
+import { ComposedFieldValueMapper } from "../../src/utils/mappers/ComposedFieldValueMapper";
 import { DateTimeFieldValueMapper } from "../../src/utils/mappers/DateTimeFieldValueMapper";
 import { LookupFieldValueMapper } from "../../src/utils/mappers/LookupFieldValueMapper";
-import { UserFieldValueMapper } from "../../src/utils/mappers/UserFieldValueMapper";
+import { MultiUserFieldValueMapper } from "../../src/utils/mappers/UserFieldValueMapper";
 
 describe("Mappers", () => {
     test("BooleanFieldValueMapper", () => {
@@ -61,12 +61,12 @@ describe("Mappers", () => {
             value: "1;#Test Lookup"
         });
     });
-    test("UserFieldValueMapper", () => {
-        let mapper = new UserFieldValueMapper();
+    test("MultiUserFieldValueMapper", () => {
+        let mapper = new MultiUserFieldValueMapper();
         let value = mapper.mapFieldValue({
-            Test: {
-                EMail: "test.user@test.domain.com"
-            }
+            Test: [{
+                email: "test.user@test.domain.com"
+            }]
         }, {
             Title: "Test",
             InternalName: "Test",
@@ -76,7 +76,7 @@ describe("Mappers", () => {
         assert.deepEqual(value, {
             name: "Test",
             type: Constants.fieldTypeUser,
-            value: "[\"test.user@test.domain.com\"]"
+            value: "[{\"key\":\"test.user@test.domain.com\"}]"
         });
     });
     test.each([
@@ -87,10 +87,10 @@ describe("Mappers", () => {
         ],
         [
             Constants.fieldTypeUser,
-            {
-                EMail: "test.user@test.domain.com"
-            },
-            "[\"test.user@test.domain.com\"]"
+            [{
+                email: "test.user@test.domain.com"
+            }],
+            "[{\"key\":\"test.user@test.domain.com\"}]"
         ],
         [
             Constants.fieldTypeBoolean,

@@ -3,7 +3,7 @@ import { IField, IFieldValue } from "../model/IFIeld";
 import { ListItemUtility } from "../utils/ListItemUtility";
 import { FieldUtils } from "../utils/FieldUtils";
 import { IFieldValueMapper } from "../utils/mappers/IFieldValueMapper";
-import { ComposedFieldValueMapper } from "../utils/mappers/ComposedFIeldValueMapper";
+import { ComposedFieldValueMapper } from "../utils/mappers/ComposedFieldValueMapper";
 
 export class CopyItemManager {
     public fields: IField[];

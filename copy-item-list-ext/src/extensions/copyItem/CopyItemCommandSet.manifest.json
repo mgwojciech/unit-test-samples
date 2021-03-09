@@ -18,7 +18,7 @@
   "items": {
     "COMMAND_1": {
       "title": { "default": "Copy item" },
-      "iconImageUrl": "icons/request.png",
+      "iconImageUrl": "https://spoprod-a.akamaihd.net/files/fabric-cdn-prod_20200921.001//assets/item-types/16/folder.svg",
       "type": "command"
     }
   }

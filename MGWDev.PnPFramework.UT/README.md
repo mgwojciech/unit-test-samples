@@ -34,3 +34,9 @@ The downside of this approach is that changing the order of assigning managed ob
 This is the simplest way to start with Your unit tests. Write integration test first and then use the saved file.
 
 Hope You enjoy writing Your own unit tests. More sample to come!
+
+## SetupSDK
+In this class I register proper mocking to DI service. Implementation of MockHttpHandler can be found [here]( https://github.com/pnp/pnpframework/blob/dev/src/lib/PnP.Framework/Utilities/UnitTests/Web/MockHttpHandler.cs) and implementation of StoreResponseToAFile message handler is also a part of [PnPFramework](https://github.com/pnp/pnpframework/blob/dev/src/lib/PnP.Framework/Utilities/UnitTests/Web/StoreResponseToAFile.cs)
+Besides this I register SharePointRESTClient and MicrosoftGraphClient to use HttpClient mocked with one of those two.
+Finally I register authentication provider. If we don't run in integration mode, it's enough to provide simple mock provider.
+To make sure all resources are properly managed (garbage collected) I opted to create and dispose ServiceScope as well as PnPContext itself. Feel free to implement it differently in Your solutions.

@@ -1,4 +1,5 @@
-﻿using MGWDev.PnPFramework.Lib.Model;
+﻿using MGWDev.PnP;
+using MGWDev.PnP.Model;
 using Microsoft.SharePoint.Client;
 using System;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Linq;
 
 namespace MGWDev.PnPFramework.Lib
 {
-    public class ListItemProvider
+    public class ListItemProvider : IListItemProvider<MyTestListItem>
     {
         public ClientContext Context { get; protected set; }
         protected string ListTitle { get; set; } = "DevList";
@@ -29,13 +30,13 @@ namespace MGWDev.PnPFramework.Lib
                 Modified = item.LastModifiedDateTime()
             }).ToList();
         }
-        public void AddItem(MyTestListItem item)
+        public void UpdateItem(MyTestListItem item)
         {
             CamlQuery camlQuery = new CamlQuery()
             {
                 ViewXml = $"<View><Query><Where><Eq><FieldRef Name='ID' /><Value Type='Counter'>{item.Id}</Value></Eq></Where></Query></View>"
             };
-            List approvedTabsList = Context.Web.Lists.GetByTitle("ListTitle");
+            List approvedTabsList = Context.Web.Lists.GetByTitle(ListTitle);
             ListItemCollection approvedTabs = approvedTabsList.GetItems(camlQuery);
             Context.Load(approvedTabs);
             Context.ExecuteQuery();

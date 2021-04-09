@@ -7,19 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.10.0-release-20210330-02" />
     <PackageReference Include="MSTest.TestAdapter" Version="2.1.0" />
     <PackageReference Include="MSTest.TestFramework" Version="2.1.0" />
     <PackageReference Include="coverlet.collector" Version="1.2.0" />
-    <PackageReference Include="PnP.Framework" Version="1.1.7-nightly" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\MGWDev.PnPFramework.Lib\MGWDev.PnPFramework.Lib.csproj" />
+    <PackageReference Include="PnP.Core" Version="1.1.0" />
+    <PackageReference Include="PnP.Core.Auth" Version="1.1.0" />
+    <PackageReference Include="PnP.Framework" Version="1.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="MockResponses\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MGWDev.PnPFramework\MGWDev.PnPFramework.csproj" />
+    <ProjectReference Include="..\MGWDev.PnPSDK.Lib\MGWDev.PnPSDK.Lib.csproj" />
+    <ProjectReference Include="..\MGWDev.PnP\MGWDev.PnP.csproj" />
   </ItemGroup>
 
 </Project>

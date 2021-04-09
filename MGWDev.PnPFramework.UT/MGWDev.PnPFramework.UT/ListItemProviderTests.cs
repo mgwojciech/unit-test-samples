@@ -1,3 +1,6 @@
+using MGWDev.PnP;
+using MGWDev.PnP.Model;
+using MGWDev.PnPFramework;
 using MGWDev.PnPFramework.Lib;
 using MGWDev.PnPFramework.UT.Helpers;
 using Microsoft.SharePoint.Client;
@@ -49,7 +52,7 @@ namespace MGWDev.PnPFramework.UT
                 MockWebRequestExecutorFactory executorFactory = new MockWebRequestExecutorFactory(responseProvider);
                 context.WebRequestExecutorFactory = executorFactory;
 
-                ListItemProvider provider = new ListItemProvider(context);
+                IListItemProvider<MyTestListItem> provider = new ListItemProvider(context);
                 var myItems = provider.GetMyItems();
 
                 Assert.AreEqual(1, myItems[0].Id);
@@ -60,12 +63,9 @@ namespace MGWDev.PnPFramework.UT
         [TestMethod]
         public void ListItemProvider_Test_GetItems_Integration()
         {
-            string userName = "your-login";
-            string password = "your-password";
-            string siteUrl = "your-site";
-            using (AuthenticationManager authManager = new AuthenticationManager(userName, EncryptionUtility.ToSecureString(password)))
+            using (AuthenticationManager authManager = new AuthenticationManager(Common.User, EncryptionUtility.ToSecureString(Common.UserPassword)))
             {
-                using (ClientContext context = authManager.GetContext(siteUrl))
+                using (ClientContext context = authManager.GetContext(Common.SiteUrl))
                 {
                     MockExecutorFactory factory = UnitTestClientContextHelper.BuildExecutorFactory(true, "./../../../MockResponses/ListItemProvider_Test_GetItems_Integration.json");
                     context.WebRequestExecutorFactory = factory;
@@ -91,49 +91,16 @@ namespace MGWDev.PnPFramework.UT
             }
         }
         [TestMethod]
-        public void ListItemProvider_Test_AddItems_NoItemExists()
+        public void ListItemProvider_Test_AddItems_ItemExists()
         {
             using (ClientContext context = new ClientContext("https://test.sharepoint.com/sites/test"))
             {
-                MockEntryResponseProvider responseProvider = new MockEntryResponseProvider();
-                responseProvider.ResponseEntries.Add(new MockResponseEntry<object>()
-                {
-                    Url = "https://test.sharepoint.com/sites/test",
-                    Method = "GetItems",
-                    ReturnValue = new
-                    {
-                        _ObjectType_ = "SP.ListItemCollection",
-                        _Child_Items_ = new List<object>()
-                        {
-                        }
-                    }
-                });
-                responseProvider.ResponseEntries.Add(new MockResponseEntry<object>()
-                {
-                    Url = "https://test.sharepoint.com/sites/test",
-                    Method = "AddItem",
-                    ReturnValue = new
-                    {
-                        _ObjectType_ = "SP.ListItem",
-                        Id = 1
-                    }
-                });
-                responseProvider.ResponseEntries.Add(new MockResponseEntry<object>()
-                {
-                    Url = "https://test.sharepoint.com/sites/test",
-                    Method = "Update",
-                    ReturnValue = new
-                    {
-                        _ObjectType_ = "SP.ListItem",
-                        Id = 1,
-                        Title = "Test title"
-                    }
-                });
-                MockWebRequestExecutorFactory executorFactory = new MockWebRequestExecutorFactory(responseProvider);
-                context.WebRequestExecutorFactory = executorFactory;
+
+                MockExecutorFactory factory = UnitTestClientContextHelper.BuildExecutorFactory(false, "./../../../MockResponses/ListItemProvider_Test_AddItems_NoItemExists.json");
+                context.WebRequestExecutorFactory = factory;
 
                 ListItemProvider provider = new ListItemProvider(context);
-                provider.AddItem(new Lib.Model.MyTestListItem()
+                provider.UpdateItem(new MyTestListItem()
                 {
                     Id = 1,
                     Title = "Title"

@@ -65,12 +65,19 @@ export class CopyItemForm extends React.Component<ICopyItemFormProps, ICopyItemF
             fieldsToCopy: fields
         });
     }
-    protected copyItems = () => {
+    protected copyItems = async () => {
         let customFieldsValues = this.state.customFieldsValues.map(fld => ({
             ...fld,
             value: SPHelper.mapFieldValueToSPFormat(this.manager.fields.filter(field => field.InternalName === fld.name)[0], fld.value)
         }));
-        this.manager.copyItems(this.props.event.selectedRows.map(row => row.getValueByName("ID")), this.state.fieldsToCopy.filter(fld => fld.selected).map(fld => fld.key), customFieldsValues);
+        this.setState({
+            loading: true
+        });
+        await this.manager.copyItems(this.props.event.selectedRows.map(row => row.getValueByName("ID")), this.state.fieldsToCopy.filter(fld => fld.selected).map(fld => fld.key), customFieldsValues);
+        this.setState({
+            loading: false,
+            isOpen: false
+        });
     }
     protected renderFooter = () => {
         return <div>

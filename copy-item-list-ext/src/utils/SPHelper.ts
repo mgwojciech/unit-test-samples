@@ -11,6 +11,9 @@ export class SPHelper {
                     };
                 }));
             }
+            case "Choice":{
+                return value.text;
+            }
             case "DateTime":{
                 return value.toLocaleDateString();
             }

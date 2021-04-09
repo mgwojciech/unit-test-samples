@@ -42,7 +42,7 @@ export class FormHelper {
             case Constants.fieldTypeChoice:
                 resultControl = <Dropdown
                     label={fieldInfo.Title}
-                    defaultSelectedKey={fieldValue}
+                    selectedKey={fieldValue ? fieldValue.key : 0}
                     options={fieldInfo.Choices.map((option, index) => {
                         return {
                             key: index,
@@ -138,14 +138,15 @@ export class FormHelper {
                 />;
                 break;
             case Constants.fieldTypeDateTime:
-                let dateTimeValue = (fieldValue && !isNaN(Date.parse(fieldValue))) ? new Date(fieldValue) : new Date();
+                let dateTimeValue = (fieldValue && !isNaN(Date.parse(fieldValue))) ? new Date(fieldValue) : undefined;
                 resultControl = <DateTimePicker
                     value={dateTimeValue}
                     label={fieldInfo.Title}
+                    
                     disabled={!editMode}
                     dateConvention={DateConvention.Date}
                     onChange={(newValue) => {
-                        if (dateTimeValue.getTime() != newValue.getTime()) {
+                        if ((dateTimeValue && dateTimeValue.getTime() != newValue.getTime()) || newValue) {
                             onChange(fieldInfo, newValue);
                         }
                     }} />;

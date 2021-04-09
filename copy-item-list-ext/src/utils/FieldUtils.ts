@@ -3,7 +3,7 @@ import { SPHttpClient } from "@microsoft/sp-http";
 import { IField } from "../model/IFIeld";
 
 export class FieldUtils {
-    public excludedFields = ["Attachments", "ContentType"];
+    public excludedFields = ["Attachments", "ContentType","Predecessors"];
     constructor(protected context: ListViewCommandSetContext) {
 
     }

@@ -10,6 +10,7 @@ import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import * as strings from 'HelloWorldWebPartStrings';
 import HelloWorld from './components/HelloWorld';
 import { IHelloWorldProps } from './components/IHelloWorldProps';
+import { ProfileManager } from '../../manager/ProfileManager';
 
 export interface IHelloWorldWebPartProps {
   description: string;
@@ -17,11 +18,18 @@ export interface IHelloWorldWebPartProps {
 
 export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorldWebPartProps> {
 
+  protected profileManager: ProfileManager;
+  public async onInit(){
+    await super.onInit();
+    let graphClient = await this.context.msGraphClientFactory.getClient();
+    this.profileManager = new ProfileManager(graphClient);
+  }
   public render(): void {
     const element: React.ReactElement<IHelloWorldProps> = React.createElement(
       HelloWorld,
       {
-        spContext: this.context
+        spContext: this.context,
+        profileManager: this.profileManager
       }
     );
 

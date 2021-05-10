@@ -12,11 +12,13 @@
     "test": "gulp test"
   },
   "dependencies": {
+    "@fluentui/react-northstar": "^0.51.4",
     "@microsoft/sp-core-library": "1.10.0",
     "@microsoft/sp-lodash-subset": "1.10.0",
     "@microsoft/sp-office-ui-fabric-core": "1.10.0",
     "@microsoft/sp-property-pane": "1.10.0",
     "@microsoft/sp-webpart-base": "1.10.0",
+    "@popperjs/core": "2.4.2",
     "@testing-library/react": "^11.2.5",
     "@types/es6-promise": "0.0.33",
     "@types/react": "16.8.8",
@@ -24,7 +26,8 @@
     "@types/webpack-env": "1.13.1",
     "office-ui-fabric-react": "6.189.2",
     "react": "16.8.5",
-    "react-dom": "16.8.5"
+    "react-dom": "16.8.5",
+    "typescript": "^3.3.4000"
   },
   "resolutions": {
     "@types/react": "16.8.8"
@@ -36,15 +39,14 @@
     "@microsoft/sp-tslint-rules": "1.10.0",
     "@microsoft/sp-webpart-workbench": "1.10.0",
     "@types/chai": "^3.4.34",
-    "@types/jest": "^26.0.20",
+    "@types/jest": "^25.2.3",
     "@types/mocha": "2.2.38",
     "ajv": "~5.2.2",
     "chai": "^4.3.3",
     "gulp": "~3.9.1",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^26.6.3",
-    "jest-cli": "^26.6.3",
-    "ts-jest": "^26.5.3"
+    "jest": "^25.0.0",
+    "ts-jest": "^25.0.0"
   },
   "jest": {
     "transform": {
@@ -61,8 +63,14 @@
       "@ms/sp-telemetry": "identity-obj-proxy",
       "@microsoft/sp-webpart-base": "identity-obj-proxy",
       "@microsoft/sp-application-base": "identity-obj-proxy",
-      "office-ui-fabric-react": "identity-obj-proxy",
       "^HelloWorldStrings": "identity-obj-proxy",
+      "office-ui-fabric-react/lib/components/Spinner/Spinner":"office-ui-fabric-react/lib-commonjs/components/Spinner/Spinner",
+      "office-ui-fabric-react/lib/components/Persona":"office-ui-fabric-react/lib-commonjs/components/Persona",
+      "@fluentui/react-northstar/dist/es/components/Flex/Flex":"@fluentui/react-northstar/dist/commonjs/components/Flex/Flex",
+      "@fluentui/react-northstar/dist/es/components/Avatar/Avatar":"@fluentui/react-northstar/dist/commonjs/components/Avatar/Avatar",
+      "@fluentui/react-northstar/dist/es/components/Card/Card":"@fluentui/react-northstar/dist/commonjs/components/Card/Card",
+      "@fluentui/react-northstar/dist/es/components/Loader/Loader":"@fluentui/react-northstar/dist/commonjs/components/Loader/Loader",
+      "@fluentui/react-northstar/dist/es/components/Text/Text":"@fluentui/react-northstar/dist/commonjs/components/Text/Text",
       "^resx-strings/en-us.json": "<rootDir>/node_modules/@microsoft/sp-core-library/lib/resx-strings/en-us.json",
       "\\.(css|scss)$": "identity-obj-proxy"
     }

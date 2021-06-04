@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-core-lib-ut-client-side-solution",
+    "id": "dfd74440-b0b2-4fa2-a606-2acfa5088d73",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-core-lib-ut.sppkg"
+  }
+}

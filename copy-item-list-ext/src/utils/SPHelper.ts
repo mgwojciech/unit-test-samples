@@ -1,3 +1,4 @@
+import { Constants } from "../model/Constants";
 import { IField } from "../model/IFIeld";
 
 export class SPHelper {
@@ -16,6 +17,12 @@ export class SPHelper {
             }
             case "DateTime":{
                 return value.toLocaleDateString();
+            }
+            case Constants.fieldTypeTaxonomyMulti:{
+                return value = value.map(v => `${v.name}|${v.key}`).join(`;`);
+            }
+            case Constants.fieldTypeTaxonomy:{
+                return value = `${value.Label}|${value.TermID}`;
             }
             default:
                 return value;

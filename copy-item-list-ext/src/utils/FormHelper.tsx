@@ -64,23 +64,21 @@ export class FormHelper {
                     context={spContext}
                     disabled={!editMode}
                     initialValues={
-                        fieldValue ? fieldValue.map(term => {
-                            return {
-                                name: term.label,
-                                key: term.termId,
-                                path: term.label,
-                                termSet: fieldInfo.TermSetId
-                            };
-                        }) : []}
+                        fieldValue ? [{
+                                name: fieldValue.Label,
+                                key: fieldValue.TermID,
+                                path: fieldValue.Label,
+                                termSet: fieldValue.TermSetId
+                            }]: []}
                     onChange={(newTax) => {
                         onChange(fieldInfo, newTax.map(term => {
                             return {
-                                label: term.name,
-                                termId: term.key,
+                                Label: term.name,
+                                TermID: term.key,
                                 key: term.key,
                                 name: term.name
                             };
-                        }));
+                        })[0]);
                     }}
                     isTermSetSelectable={false} />;
                 break;
@@ -104,8 +102,8 @@ export class FormHelper {
                     onChange={(newTax) => {
                         onChange(fieldInfo, newTax.map(term => {
                             return {
-                                label: term.name,
-                                termId: term.key,
+                                Label: term.name,
+                                TermID: term.key,
                                 key: term.key,
                                 name: term.name
                             };

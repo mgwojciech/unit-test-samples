@@ -3,6 +3,7 @@ import { BooleanFieldValueMapper } from "./BooleanFieldValueMapper";
 import { DateTimeFieldValueMapper } from "./DateTimeFieldValueMapper";
 import { IFieldValueMapper } from "./IFieldValueMapper";
 import { LookupFieldValueMapper } from "./LookupFieldValueMapper";
+import { TaxonomyFieldValueMapper } from "./TaxonomyFieldValueMapper";
 import { MultiUserFieldValueMapper } from "./UserFieldValueMapper";
 
 export class ComposedFieldValueMapper implements IFieldValueMapper {
@@ -10,7 +11,8 @@ export class ComposedFieldValueMapper implements IFieldValueMapper {
         new DateTimeFieldValueMapper(),
         new LookupFieldValueMapper(),
         new BooleanFieldValueMapper(),
-        new MultiUserFieldValueMapper()
+        new MultiUserFieldValueMapper(),
+        new TaxonomyFieldValueMapper()
     ];
     public supportedFieldTypes: string[] = [];
     constructor() {

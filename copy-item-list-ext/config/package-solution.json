@@ -3,7 +3,7 @@
   "solution": {
     "name": "copy-item-list-ext-client-side-solution",
     "id": "24f56fa4-daae-47cd-8b0d-bed5270f2617",
-    "version": "1.0.0.1",
+    "version": "1.0.0.2",
     "includeClientSideAssets": true,
     "isDomainIsolated": false,
     "features": [
@@ -11,7 +11,7 @@
         "title": "Application Extension - Deployment of custom action.",
         "description": "Deploys a custom action with ClientSideComponentId association",
         "id": "7ee1df13-ca57-42b5-8013-0e9bf0f40a18",
-        "version": "1.0.0.1",
+        "version": "1.0.0.2",
         "assets": {
           "elementManifests": [
             "elements.xml",

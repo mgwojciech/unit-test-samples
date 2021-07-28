@@ -3,7 +3,16 @@
 import { assert } from "chai";
 import { GraphDocumentsProvider } from "../../src/dal/GraphDocumentsProvider";
 
+var logCallback: (name, error) => void;
+jest.mock("@microsoft/sp-core-library", () => ({
+    Log: {
+        error: (name, err) => logCallback && logCallback(name, err)
+    }
+}))
 describe("GraphSearchAPIDocumentsProvider", () => {
+    afterEach(() => {
+        logCallback = null;
+    })
     test("should map graph result", async () => {
         let graphClient = {
             api: () => ({
@@ -112,5 +121,26 @@ describe("GraphSearchAPIDocumentsProvider", () => {
 
         assert.isTrue(asserted);
 
+    });
+    test("should handle exception", async () => {
+        let asserted = false;
+        let graphClient = {
+            api: () => ({
+                post: () => Promise.reject(new Error("Test error"))
+            })
+        }
+        logCallback = (name, err) => {
+            assert.equal(name, "GraphDocumentsProvider.getDocuments");
+            assert.equal(err.message, "Test error");
+            asserted = true;
+        }
+        let dataProvider = new GraphDocumentsProvider(graphClient as any);
+        try {
+            let data = await dataProvider.getDocuments();
+        }
+        catch (err) {
+            assert.equal(err.message, "Test error");
+        }
+        assert.isTrue(asserted);
     })
 });

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "global-config-test-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/globalConfigTest/GlobalConfigTestWebPart.js",
+          "manifest": "./src/webparts/globalConfigTest/GlobalConfigTestWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GlobalConfigTestWebPartStrings": "lib/webparts/globalConfigTest/loc/{locale}.js",
+    "ConfigValues": "lib/utils/ConfigValues.js"
+  }
+}

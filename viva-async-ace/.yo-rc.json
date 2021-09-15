@@ -1,0 +1,14 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": true,
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.13.0-beta.17",
+    "libraryName": "viva-async-ace",
+    "libraryId": "5724412c-92f3-47b7-be08-fc96d2f0db79",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "adaptiveCardExtension",
+    "templateType": "Basic"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "async-card-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/asyncCard/AsyncCardAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/asyncCard/AsyncCardAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AsyncCardAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/asyncCard/loc/{locale}.js"
+  }
+}

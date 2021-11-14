@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-fx-unit-tests-sample-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spFxUnitTestsSample/SpFxUnitTestsSampleWebPart.js",
+          "manifest": "./src/webparts/spFxUnitTestsSample/SpFxUnitTestsSampleWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpFxUnitTestsSampleWebPartStrings": "lib/webparts/spFxUnitTestsSample/loc/{locale}.js"
+  }
+}

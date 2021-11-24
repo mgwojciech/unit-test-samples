@@ -78,6 +78,7 @@ export class CopyItemForm extends React.Component<ICopyItemFormProps, ICopyItemF
             loading: false,
             isOpen: false
         });
+        window.location.reload();
     }
     protected renderFooter = () => {
         return <div>

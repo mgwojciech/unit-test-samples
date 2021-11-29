@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading;
@@ -14,6 +15,7 @@ namespace MGWDevGraphSDK.UT.Tests.Mock
     public class MockRequestExecutingEventArgs
     {
         public HttpRequestMessage RequestMessage { get; }
+        public HttpStatusCode ResponseCode { get; set; } = HttpStatusCode.OK;
         public object Result { get; set; }
 
         public MockRequestExecutingEventArgs(HttpRequestMessage message)
@@ -46,6 +48,7 @@ namespace MGWDevGraphSDK.UT.Tests.Mock
                     {
                         response.Content = new StringContent(Serializer.SerializeObject(args.Result));
                     }
+                    response.StatusCode = args.ResponseCode;
                 }
                 if (Responses.ContainsKey(key) && response.Content == null)
                 {

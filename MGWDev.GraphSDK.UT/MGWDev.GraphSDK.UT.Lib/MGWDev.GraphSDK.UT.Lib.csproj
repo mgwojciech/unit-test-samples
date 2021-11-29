@@ -70,6 +70,7 @@
     <Compile Include="DAL\IListItemProvider.cs" />
     <Compile Include="Manager\OrderManager.cs" />
     <Compile Include="Model\FieldUser.cs" />
+    <Compile Include="Model\Helper\GraphPaginationEnumerator.cs" />
     <Compile Include="Model\Order.cs" />
     <Compile Include="Model\SPListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -21,6 +21,7 @@ export interface ICopyItemFormState {
         text: string;
         selected: boolean;
     }[];
+    isDropDownOpen?: boolean;
     customFieldsValues: IFieldValue[];
 }
 
@@ -82,7 +83,7 @@ export class CopyItemForm extends React.Component<ICopyItemFormProps, ICopyItemF
     }
     protected renderFooter = () => {
         return <div>
-            <PrimaryButton text="Copy selected items" onClick={this.copyItems} />
+            <PrimaryButton disabled={this.state.isDropDownOpen} text="Copy selected items" onClick={this.copyItems} />
         </div>;
     }
     public componentWillReceiveProps(props: ICopyItemFormProps) {
@@ -126,6 +127,8 @@ export class CopyItemForm extends React.Component<ICopyItemFormProps, ICopyItemF
                             placeholder="Fields to copy"
                             label="Copy values in fields"
                             options={this.state.fieldsToCopy}
+                            onFocus={()=>this.setState({...this.state, isDropDownOpen: true})}
+                            onBlur={()=>this.setState({...this.state, isDropDownOpen: false})}
                             onChange={this.handleOnFieldsToCopyChange}
                         />
                     </div>

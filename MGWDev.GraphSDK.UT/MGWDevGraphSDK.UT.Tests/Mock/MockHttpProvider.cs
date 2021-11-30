@@ -9,6 +9,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace MGWDevGraphSDK.UT.Tests.Mock
 {
@@ -26,7 +27,6 @@ namespace MGWDevGraphSDK.UT.Tests.Mock
     public class MockHttpProvider : IHttpProvider
     {
         public ISerializer Serializer { get; } = new Serializer();
-
         public TimeSpan OverallTimeout { get; set; } = TimeSpan.FromSeconds(10);
         public Dictionary<string, object> Responses { get; set; } = new Dictionary<string, object>();
         public event EventHandler<MockRequestExecutingEventArgs> OnRequestExecuting;
@@ -50,9 +50,9 @@ namespace MGWDevGraphSDK.UT.Tests.Mock
                     }
                     response.StatusCode = args.ResponseCode;
                 }
-                if (Responses.ContainsKey(key) && response.Content == null)
+                if (Responses.ContainsKey(Uri.UnescapeDataString(key)) && response.Content == null)
                 {
-                    response.Content = new StringContent(Serializer.SerializeObject(Responses[key]));
+                    response.Content = new StringContent(Serializer.SerializeObject(Responses[Uri.UnescapeDataString(key)]));
                 }
                 return response;
             });

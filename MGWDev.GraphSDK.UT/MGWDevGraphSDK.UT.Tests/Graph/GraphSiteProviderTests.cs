@@ -18,7 +18,7 @@ namespace MGWDevGraphSDK.UT.Tests.Graph
             provider.OnRequestExecuting += delegate (object sender, MockRequestExecutingEventArgs e)
             {
                 e.ResponseCode = HttpStatusCode.NotFound;
-                e.Result = JsonConvert.DeserializeObject(@"{
+                e.Result = System.Text.Json.JsonSerializer.Deserialize<dynamic>(@"{
                 ""error"": {
                     ""code"": ""itemNotFound"",
                     ""message"": ""Requested site could not be found"",

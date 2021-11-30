@@ -54,7 +54,7 @@ namespace MGWDevGraphSDK.UT.Tests.Graph
 
             GraphServiceClient client = new GraphServiceClient(new MockAuthenticationHelper(), mockHttpProvider);
             GraphUsersProvider provider = new GraphUsersProvider(client);
-            var allUsers = provider.LoadAllUsers();
+            var allUsers = provider.LoadAllEntities();
             Assert.AreEqual(3, allUsers.Count);
         }
     }

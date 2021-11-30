@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace MGWDev.GraphSDK.UT.Graph.DAL
 {
-    public class GraphUsersProvider : AbstractEntityProvider<User>
+    public class ToDoListsProvider : AbstractEntityProvider<TodoTaskList>
     {
-        public GraphUsersProvider(GraphServiceClient serviceClient):base(serviceClient, "https://graph.microsoft.com/v1.0/users")
+        public ToDoListsProvider(GraphServiceClient serviceClient):base(serviceClient, "https://graph.microsoft.com/v1.0/me/todo/lists")
         {
         }
     }

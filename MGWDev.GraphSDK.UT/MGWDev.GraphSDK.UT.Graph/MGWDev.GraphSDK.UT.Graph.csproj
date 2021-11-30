@@ -83,10 +83,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\AbstractEntityProvider.cs" />
     <Compile Include="DAL\GraphListItemProvider.cs" />
     <Compile Include="DAL\GraphSiteProvider.cs" />
     <Compile Include="DAL\GraphUserInfoProvider.cs" />
     <Compile Include="DAL\GraphUsersProvider.cs" />
+    <Compile Include="DAL\ToDoListsProvider.cs" />
     <Compile Include="FieldMapper\AuthorFieldMapper.cs" />
     <Compile Include="FieldMapper\DateTimeMapper.cs" />
     <Compile Include="FieldMapper\IDFIeldMapper.cs" />

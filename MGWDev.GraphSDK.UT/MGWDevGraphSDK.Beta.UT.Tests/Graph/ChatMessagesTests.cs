@@ -15,12 +15,12 @@ namespace MGWDevGraphSDK.Beta.UT.Tests.Graph
         [TestMethod]
         public void ChatMessages_Test_GetUserChatMessages()
         {
-            string requestUrl = "https://graph.microsoft.com/beta/users/1/chats/microsoft.graph.allMessages";
+            string requestUrl = "https://graph.microsoft.com/beta/users/1/chats/microsoft.graph.allMessages()";
             MockHttpProvider mockHttpProvider = new MockHttpProvider();
 
             mockHttpProvider.Responses.Add("GET:" + requestUrl, new
             {
-                value = new List<object>()
+                Value = new List<object>()
                 {
                     new ChatMessage(){
                         ChatId = "test-chat-id-1",
@@ -41,7 +41,7 @@ namespace MGWDevGraphSDK.Beta.UT.Tests.Graph
         [TestMethod]
         public void ChatMessages_Test_GetUserChatMessages_Pagination()
         {
-            string requestUrl = "https://graph.microsoft.com/beta/users/1/chats/microsoft.graph.allMessages";
+            string requestUrl = "https://graph.microsoft.com/beta/users/1/chats/microsoft.graph.allMessages()";
             string requestUrlNextPage = "https://graph.microsoft.com/beta/users/1/chats/microsoft.graph.allMessages?nextpage=2";
             MockHttpProvider mockHttpProvider = new MockHttpProvider();
 

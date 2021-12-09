@@ -9,7 +9,11 @@ jest.mock("@microsoft/sp-core-library", () => ({
         error: (name, err) => logCallback && logCallback(name, err)
     }
 }))
+
 describe("GraphSearchAPIDocumentsProvider", () => {
+	beforeEach(()=>{
+		localStorage.clear();
+	})
     afterEach(() => {
         logCallback = null;
     })

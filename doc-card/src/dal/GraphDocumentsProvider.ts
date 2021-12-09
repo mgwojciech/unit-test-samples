@@ -2,7 +2,7 @@ import { IDocument } from "../model/IDocument";
 import { IDocumentsProvider } from "./IDocumentsProvider";
 import { MSGraphClient } from "@microsoft/sp-http";
 import { Log } from "@microsoft/sp-core-library";
-import { useStorage } from "../utils/FunctionUtils";
+import { useStorage, queueRequest } from "../utils/FunctionUtils";
 
 export class GraphDocumentsProvider implements IDocumentsProvider {
 
@@ -10,6 +10,7 @@ export class GraphDocumentsProvider implements IDocumentsProvider {
 
     }
     @useStorage("documents")
+    @queueRequest("GraphDocumentsProvider.getDocument")
     public async getDocuments(): Promise<IDocument[]> {
         try {
             let searchResult = await this.msGraphClient.api("https://graph.microsoft.com/v1.0/search/query").post({

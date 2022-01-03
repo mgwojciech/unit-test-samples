@@ -45,10 +45,10 @@ describe("Mappers", () => {
     test("LookupFieldValueMapper", () => {
         let mapper = new LookupFieldValueMapper();
         let value = mapper.mapFieldValue({
-            Test: {
-                ID: 1,
-                Title: "Test Lookup"
-            }
+            Test: [{
+                lookupId: 1,
+                lookupValue: "Test Lookup"
+            }]
         }, {
             Title: "Test",
             InternalName: "Test",
@@ -98,11 +98,16 @@ describe("Mappers", () => {
             "No"
         ],
         [
-            Constants.fieldTypeLookup, {
-                ID: 1,
-                Title: "Test Lookup"
-            },
+            Constants.fieldTypeLookup, [{
+                lookupId: 1,
+                lookupValue: "Test Lookup"
+            }],
             "1;#Test Lookup"
+        ],
+        [
+            Constants.fieldTypeChoiceMulti,
+            ["TestChoiceValue", "TestChoiceValue2"],
+            ";#TestChoiceValue;#TestChoiceValue2;#"
         ]
     ])("ComposedFieldValueMapper %j", (fieldType: any, itemValue: any, expectedValue: any) => {
         let mapper = new ComposedFieldValueMapper();

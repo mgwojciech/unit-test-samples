@@ -15,6 +15,9 @@ export class SPHelper {
             case "Choice":{
                 return value.text;
             }
+            case "MultiChoice":{
+                return `;#${value.map(val=>val.text || val).join(";#")};#`;
+            }
             case "DateTime":{
                 return value.toLocaleDateString();
             }

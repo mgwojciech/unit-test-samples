@@ -78,8 +78,8 @@ export class ListItemUtility {
                 body: JSON.stringify(body)
             });
 
+            const result = await data.json();
             if (data && data.ok) {
-                const result = await data.json();
                 if (result.value) {
                     const invalid = result.value.filter(field => field.ErrorMessage !== null && field.ErrorMessage);
                     if (invalid.length === 0) {

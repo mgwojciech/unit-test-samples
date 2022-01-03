@@ -1,0 +1,2186 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.2",
+  "hash": "5a4c9a5c23541461ab90",
+  "time": 814,
+  "builtAt": 1640179591887,
+  "publicPath": "",
+  "outputPath": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\dist",
+  "assetsByChunkName": {
+    "karma-wp-web-part": [
+      "karma-wp-web-part.js",
+      "karma-wp-web-part.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "90b1ca9d-f804-489f-a409-7ffed307d441.manifest.json",
+      "size": 1931,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "KarmaWpWebPartStrings_en-us.js",
+      "size": 173,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "karma-wp-web-part.js",
+      "size": 35121,
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "chunkNames": [
+        "karma-wp-web-part"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "karma-wp-web-part.js.map",
+      "size": 30865,
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "chunkNames": [
+        "karma-wp-web-part"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "karma-wp-web-part": {
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "assets": [
+        "karma-wp-web-part.js",
+        "karma-wp-web-part.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "karma-wp-web-part": {
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "assets": [
+        "karma-wp-web-part.js",
+        "karma-wp-web-part.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "karma-wp-web-part",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 22487,
+      "names": [
+        "karma-wp-web-part"
+      ],
+      "files": [
+        "karma-wp-web-part.js",
+        "karma-wp-web-part.js.map"
+      ],
+      "hash": "97e4213e39e0a9eca186",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "26ea",
+          "identifier": "external \"@microsoft/sp-property-pane\"",
+          "name": "external \"@microsoft/sp-property-pane\"",
+          "index": 4,
+          "index2": 3,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "karma-wp-web-part"
+          ],
+          "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "issuerId": "ty9x",
+          "issuerName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "issuerPath": [
+            {
+              "id": "ty9x",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "ty9x",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "@microsoft/sp-property-pane",
+              "loc": "17:0-68"
+            },
+            {
+              "moduleId": "ty9x",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "type": "harmony import specifier",
+              "userRequest": "@microsoft/sp-property-pane",
+              "loc": "53:32-53"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "id": "5Nyj",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.module.css",
+          "index": 9,
+          "index2": 10,
+          "size": 583,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "karma-wp-web-part"
+          ],
+          "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.scss.js",
+          "issuerId": "XMf1",
+          "issuerName": "./lib/webparts/karmaWp/components/KarmaWp.module.scss.js",
+          "issuerPath": [
+            {
+              "id": "ty9x",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+            },
+            {
+              "id": "sU/o",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "name": "./lib/webparts/karmaWp/components/KarmaWp.js"
+            },
+            {
+              "id": "XMf1",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.scss.js",
+              "name": "./lib/webparts/karmaWp/components/KarmaWp.module.scss.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "XMf1",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.scss.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.module.scss.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.module.scss.js",
+              "type": "cjs require",
+              "userRequest": "./KarmaWp.module.css",
+              "loc": "2:0-31"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 3,
+          "source": "var content = require(\"!!../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/postcss-loader/src/index.js??postcss!./KarmaWp.module.css\");\nvar loader = require(\"D:\\\\MGWDev\\\\Training\\\\unit-tests-samples\\\\karma-sample\\\\node_modules\\\\@microsoft\\\\loader-load-themed-styles\\\\node_modules\\\\@microsoft\\\\load-themed-styles\\\\lib\\\\index.js\");\n\nif(typeof content === \"string\") content = [[module.id, content]];\n\n// add the styles to the DOM\nfor (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);\n\nif(content.locals) module.exports = content.locals;"
+        },
+        {
+          "id": "6ZZ6",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/karmaWp/components/KarmaWp.module.css",
+          "index": 10,
+          "index2": 7,
+          "size": 2148,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "karma-wp-web-part"
+          ],
+          "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+          "issuerId": "5Nyj",
+          "issuerName": "./lib/webparts/karmaWp/components/KarmaWp.module.css",
+          "issuerPath": [
+            {
+              "id": "ty9x",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+            },
+            {
+              "id": "sU/o",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "name": "./lib/webparts/karmaWp/components/KarmaWp.js"
+            },
+            {
+              "id": "XMf1",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.scss.js",
+              "name": "./lib/webparts/karmaWp/components/KarmaWp.module.scss.js"
+            },
+            {
+              "id": "5Nyj",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+              "name": "./lib/webparts/karmaWp/components/KarmaWp.module.css"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "5Nyj",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.module.css",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.module.css",
+              "type": "cjs require",
+              "userRequest": "!!../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/postcss-loader/src/index.js??postcss!./KarmaWp.module.css",
+              "loc": "1:14-157"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 4,
+          "source": "exports = module.exports = require(\"../../../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".karmaWp_ef9f40d3 .container_ef9f40d3{max-width:700px;margin:0 auto;box-shadow:0 2px 4px 0 rgba(0,0,0,.2),0 25px 50px 0 rgba(0,0,0,.1)}.karmaWp_ef9f40d3 .row_ef9f40d3{margin:0 -8px;box-sizing:border-box;zoom:1;color:#fff;background-color:#005a9e;padding:20px}.karmaWp_ef9f40d3 .row_ef9f40d3:after,.karmaWp_ef9f40d3 .row_ef9f40d3:before{display:table;content:\\\"\\\";line-height:0}.karmaWp_ef9f40d3 .row_ef9f40d3:after{clear:both}.karmaWp_ef9f40d3 .column_ef9f40d3{position:relative;min-height:1px;padding-left:8px;padding-right:8px;box-sizing:border-box}[dir=ltr] .karmaWp_ef9f40d3 .column_ef9f40d3{float:left}[dir=rtl] .karmaWp_ef9f40d3 .column_ef9f40d3{float:right}.karmaWp_ef9f40d3 .column_ef9f40d3 .ms-Grid_ef9f40d3{padding:0}@media (min-width:640px){.karmaWp_ef9f40d3 .column_ef9f40d3{width:83.3333333333%}}@media (min-width:1024px){.karmaWp_ef9f40d3 .column_ef9f40d3{width:66.6666666667%}}@media (min-width:1024px){[dir=ltr] .karmaWp_ef9f40d3 .column_ef9f40d3{left:16.6666666667%}[dir=rtl] .karmaWp_ef9f40d3 .column_ef9f40d3{right:16.6666666667%}}@media (min-width:640px){[dir=ltr] .karmaWp_ef9f40d3 .column_ef9f40d3{left:8.3333333333%}[dir=rtl] .karmaWp_ef9f40d3 .column_ef9f40d3{right:8.3333333333%}}.karmaWp_ef9f40d3 .title_ef9f40d3{font-size:21px;font-weight:100;color:#fff}.karmaWp_ef9f40d3 .description_ef9f40d3,.karmaWp_ef9f40d3 .subTitle_ef9f40d3{font-size:17px;font-weight:300;color:#fff}.karmaWp_ef9f40d3 .button_ef9f40d3{text-decoration:none;height:32px;min-width:80px;background-color:#0078d4;border-color:#0078d4;color:#fff;outline:transparent;position:relative;font-family:Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:400;border-width:0;text-align:center;cursor:pointer;display:inline-block;padding:0 16px}.karmaWp_ef9f40d3 .button_ef9f40d3 .label_ef9f40d3{font-weight:600;font-size:14px;height:32px;line-height:32px;margin:0 4px;vertical-align:top;display:inline-block}\", \"\"]);\n"
+        },
+        {
+          "id": "JPst",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "index": 11,
+          "index2": 6,
+          "size": 2677,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "karma-wp-web-part"
+          ],
+          "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+          "issuerId": "6ZZ6",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/karmaWp/components/KarmaWp.module.css",
+          "issuerPath": [
+            {
+              "id": "ty9x",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+            },
+            {
+              "id": "sU/o",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "name": "./lib/webparts/karmaWp/components/KarmaWp.js"
+            },
+            {
+              "id": "XMf1",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.scss.js",
+              "name": "./lib/webparts/karmaWp/components/KarmaWp.module.scss.js"
+            },
+            {
+              "id": "5Nyj",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+              "name": "./lib/webparts/karmaWp/components/KarmaWp.module.css"
+            },
+            {
+              "id": "6ZZ6",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/karmaWp/components/KarmaWp.module.css"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "6ZZ6",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/karmaWp/components/KarmaWp.module.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/karmaWp/components/KarmaWp.module.css",
+              "type": "cjs require",
+              "userRequest": "../../../../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "1:27-93"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 5,
+          "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \"{\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    for (var i = 0; i < this.length; i++) {\n      // eslint-disable-next-line prefer-destructuring\n      var id = this[i][0];\n\n      if (id != null) {\n        alreadyImportedModules[id] = true;\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = modules[_i]; // skip already imported module\n      // this implementation is not 100% perfect for weird media query combinations\n      // when a module is imported multiple times with different media queries.\n      // I hope this will never occur (Hey this way we have smaller bundles)\n\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\n        if (mediaQuery && !item[2]) {\n          item[2] = mediaQuery;\n        } else if (mediaQuery) {\n          item[2] = \"(\".concat(item[2], \") and (\").concat(mediaQuery, \")\");\n        }\n\n        list.push(item);\n      }\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot).concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+        },
+        {
+          "id": "PVAt",
+          "identifier": "external \"KarmaWpWebPartStrings\"",
+          "name": "external \"KarmaWpWebPartStrings\"",
+          "index": 6,
+          "index2": 5,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "karma-wp-web-part"
+          ],
+          "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "issuerId": "ty9x",
+          "issuerName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "issuerPath": [
+            {
+              "id": "ty9x",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "ty9x",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "KarmaWpWebPartStrings",
+              "loc": "19:0-49"
+            },
+            {
+              "moduleId": "ty9x",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "type": "harmony import specifier",
+              "userRequest": "KarmaWpWebPartStrings",
+              "loc": "47:37-68"
+            },
+            {
+              "moduleId": "ty9x",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "type": "harmony import specifier",
+              "userRequest": "KarmaWpWebPartStrings",
+              "loc": "51:39-61"
+            },
+            {
+              "moduleId": "ty9x",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "type": "harmony import specifier",
+              "userRequest": "KarmaWpWebPartStrings",
+              "loc": "54:43-72"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "id": "Pk8u",
+          "identifier": "external \"@microsoft/sp-lodash-subset\"",
+          "name": "external \"@microsoft/sp-lodash-subset\"",
+          "index": 14,
+          "index2": 12,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "karma-wp-web-part"
+          ],
+          "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "issuerId": "sU/o",
+          "issuerName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "issuerPath": [
+            {
+              "id": "ty9x",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+            },
+            {
+              "id": "sU/o",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "name": "./lib/webparts/karmaWp/components/KarmaWp.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "@microsoft/sp-lodash-subset",
+              "loc": "16:0-53"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "@microsoft/sp-lodash-subset",
+              "loc": "29:84-90"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "id": "UWqr",
+          "identifier": "external \"@microsoft/sp-core-library\"",
+          "name": "external \"@microsoft/sp-core-library\"",
+          "index": 3,
+          "index2": 2,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "karma-wp-web-part"
+          ],
+          "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "issuerId": "ty9x",
+          "issuerName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "issuerPath": [
+            {
+              "id": "ty9x",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "ty9x",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "@microsoft/sp-core-library",
+              "loc": "16:0-53"
+            },
+            {
+              "moduleId": "ty9x",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "type": "harmony import specifier",
+              "userRequest": "@microsoft/sp-core-library",
+              "loc": "37:19-26"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "id": "XMf1",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.scss.js",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.module.scss.js",
+          "index": 8,
+          "index2": 11,
+          "size": 457,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "karma-wp-web-part"
+          ],
+          "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "issuerId": "sU/o",
+          "issuerName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "issuerPath": [
+            {
+              "id": "ty9x",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+            },
+            {
+              "id": "sU/o",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "name": "./lib/webparts/karmaWp/components/KarmaWp.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./KarmaWp.module.scss",
+              "loc": "15:0-43"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "./KarmaWp.module.scss",
+              "loc": "23:56-62"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "./KarmaWp.module.scss",
+              "loc": "24:52-58"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "./KarmaWp.module.scss",
+              "loc": "25:56-62"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "./KarmaWp.module.scss",
+              "loc": "26:60-66"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "./KarmaWp.module.scss",
+              "loc": "27:65-71"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "./KarmaWp.module.scss",
+              "loc": "28:62-68"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "./KarmaWp.module.scss",
+              "loc": "29:62-68"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "./KarmaWp.module.scss",
+              "loc": "30:91-97"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "./KarmaWp.module.scss",
+              "loc": "31:69-75"
+            }
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "/* tslint:disable */\r\nrequire(\"./KarmaWp.module.css\");\r\nvar styles = {\r\n    karmaWp: 'karmaWp_ef9f40d3',\r\n    container: 'container_ef9f40d3',\r\n    row: 'row_ef9f40d3',\r\n    column: 'column_ef9f40d3',\r\n    'ms-Grid': 'ms-Grid_ef9f40d3',\r\n    title: 'title_ef9f40d3',\r\n    subTitle: 'subTitle_ef9f40d3',\r\n    description: 'description_ef9f40d3',\r\n    button: 'button_ef9f40d3',\r\n    label: 'label_ef9f40d3'\r\n};\r\nexport default styles;\r\n/* tslint:enable */ \r\n"
+        },
+        {
+          "id": "br4S",
+          "identifier": "external \"@microsoft/sp-webpart-base\"",
+          "name": "external \"@microsoft/sp-webpart-base\"",
+          "index": 5,
+          "index2": 4,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "karma-wp-web-part"
+          ],
+          "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "issuerId": "ty9x",
+          "issuerName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "issuerPath": [
+            {
+              "id": "ty9x",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "ty9x",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "@microsoft/sp-webpart-base",
+              "loc": "18:0-67"
+            },
+            {
+              "moduleId": "ty9x",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "type": "harmony import specifier",
+              "userRequest": "@microsoft/sp-webpart-base",
+              "loc": "64:2-23"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "id": "cDcd",
+          "identifier": "external \"react\"",
+          "name": "external \"react\"",
+          "index": 1,
+          "index2": 0,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "karma-wp-web-part"
+          ],
+          "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "issuerId": "ty9x",
+          "issuerName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "issuerPath": [
+            {
+              "id": "ty9x",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "14:0-31"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "23:16-35"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "24:12-31"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "25:16-35"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "26:20-39"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "27:24-43"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "28:24-43"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "29:24-43"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "30:24-43"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "31:28-47"
+            },
+            {
+              "moduleId": "sU/o",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "34:2-17"
+            },
+            {
+              "moduleId": "ty9x",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "14:0-31"
+            },
+            {
+              "moduleId": "ty9x",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "27:22-41"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "id": "faye",
+          "identifier": "external \"react-dom\"",
+          "name": "external \"react-dom\"",
+          "index": 2,
+          "index2": 1,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "karma-wp-web-part"
+          ],
+          "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "issuerId": "ty9x",
+          "issuerName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "issuerPath": [
+            {
+              "id": "ty9x",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "ty9x",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react-dom",
+              "loc": "15:0-38"
+            },
+            {
+              "moduleId": "ty9x",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "type": "harmony import specifier",
+              "userRequest": "react-dom",
+              "loc": "30:8-23"
+            },
+            {
+              "moduleId": "ty9x",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "type": "harmony import specifier",
+              "userRequest": "react-dom",
+              "loc": "33:8-39"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "id": "ruv1",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+          "name": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js",
+          "index": 12,
+          "index2": 9,
+          "size": 11360,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "karma-wp-web-part"
+          ],
+          "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+          "issuerId": "5Nyj",
+          "issuerName": "./lib/webparts/karmaWp/components/KarmaWp.module.css",
+          "issuerPath": [
+            {
+              "id": "ty9x",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+            },
+            {
+              "id": "sU/o",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "name": "./lib/webparts/karmaWp/components/KarmaWp.js"
+            },
+            {
+              "id": "XMf1",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.scss.js",
+              "name": "./lib/webparts/karmaWp/components/KarmaWp.module.scss.js"
+            },
+            {
+              "id": "5Nyj",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+              "name": "./lib/webparts/karmaWp/components/KarmaWp.module.css"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "5Nyj",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+              "module": "./lib/webparts/karmaWp/components/KarmaWp.module.css",
+              "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.module.css",
+              "type": "cjs require",
+              "userRequest": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+              "loc": "2:13-192"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 4,
+          "source": "\"use strict\";\n// Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license.\n// See LICENSE in the project root for license information.\nvar __assign = (this && this.__assign) || function () {\n    __assign = Object.assign || function(t) {\n        for (var s, i = 1, n = arguments.length; i < n; i++) {\n            s = arguments[i];\n            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\n                t[p] = s[p];\n        }\n        return t;\n    };\n    return __assign.apply(this, arguments);\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.splitStyles = exports.detokenize = exports.clearStyles = exports.loadTheme = exports.flush = exports.configureRunMode = exports.configureLoadStyles = exports.loadStyles = void 0;\n// Store the theming state in __themeState__ global scope for reuse in the case of duplicate\n// load-themed-styles hosted on the page.\nvar _root = typeof window === 'undefined' ? global : window; // eslint-disable-line @typescript-eslint/no-explicit-any\n// Nonce string to inject into script tag if one provided. This is used in CSP (Content Security Policy).\nvar _styleNonce = _root && _root.CSPSettings && _root.CSPSettings.nonce;\nvar _themeState = initializeThemeState();\n/**\n * Matches theming tokens. For example, \"[theme: themeSlotName, default: #FFF]\" (including the quotes).\n */\nvar _themeTokenRegex = /[\\'\\\"]\\[theme:\\s*(\\w+)\\s*(?:\\,\\s*default:\\s*([\\\\\"\\']?[\\.\\,\\(\\)\\#\\-\\s\\w]*[\\.\\,\\(\\)\\#\\-\\w][\\\"\\']?))?\\s*\\][\\'\\\"]/g;\nvar now = function () {\n    return typeof performance !== 'undefined' && !!performance.now ? performance.now() : Date.now();\n};\nfunction measure(func) {\n    var start = now();\n    func();\n    var end = now();\n    _themeState.perf.duration += end - start;\n}\n/**\n * initialize global state object\n */\nfunction initializeThemeState() {\n    var state = _root.__themeState__ || {\n        theme: undefined,\n        lastStyleElement: undefined,\n        registeredStyles: []\n    };\n    if (!state.runState) {\n        state = __assign(__assign({}, state), { perf: {\n                count: 0,\n                duration: 0\n            }, runState: {\n                flushTimer: 0,\n                mode: 0 /* sync */,\n                buffer: []\n            } });\n    }\n    if (!state.registeredThemableStyles) {\n        state = __assign(__assign({}, state), { registeredThemableStyles: [] });\n    }\n    _root.__themeState__ = state;\n    return state;\n}\n/**\n * Loads a set of style text. If it is registered too early, we will register it when the window.load\n * event is fired.\n * @param {string | ThemableArray} styles Themable style text to register.\n * @param {boolean} loadAsync When true, always load styles in async mode, irrespective of current sync mode.\n */\nfunction loadStyles(styles, loadAsync) {\n    if (loadAsync === void 0) { loadAsync = false; }\n    measure(function () {\n        var styleParts = Array.isArray(styles) ? styles : splitStyles(styles);\n        var _a = _themeState.runState, mode = _a.mode, buffer = _a.buffer, flushTimer = _a.flushTimer;\n        if (loadAsync || mode === 1 /* async */) {\n            buffer.push(styleParts);\n            if (!flushTimer) {\n                _themeState.runState.flushTimer = asyncLoadStyles();\n            }\n        }\n        else {\n            applyThemableStyles(styleParts);\n        }\n    });\n}\nexports.loadStyles = loadStyles;\n/**\n * Allows for customizable loadStyles logic. e.g. for server side rendering application\n * @param {(processedStyles: string, rawStyles?: string | ThemableArray) => void}\n * a loadStyles callback that gets called when styles are loaded or reloaded\n */\nfunction configureLoadStyles(loadStylesFn) {\n    _themeState.loadStyles = loadStylesFn;\n}\nexports.configureLoadStyles = configureLoadStyles;\n/**\n * Configure run mode of load-themable-styles\n * @param mode load-themable-styles run mode, async or sync\n */\nfunction configureRunMode(mode) {\n    _themeState.runState.mode = mode;\n}\nexports.configureRunMode = configureRunMode;\n/**\n * external code can call flush to synchronously force processing of currently buffered styles\n */\nfunction flush() {\n    measure(function () {\n        var styleArrays = _themeState.runState.buffer.slice();\n        _themeState.runState.buffer = [];\n        var mergedStyleArray = [].concat.apply([], styleArrays);\n        if (mergedStyleArray.length > 0) {\n            applyThemableStyles(mergedStyleArray);\n        }\n    });\n}\nexports.flush = flush;\n/**\n * register async loadStyles\n */\nfunction asyncLoadStyles() {\n    return setTimeout(function () {\n        _themeState.runState.flushTimer = 0;\n        flush();\n    }, 0);\n}\n/**\n * Loads a set of style text. If it is registered too early, we will register it when the window.load event\n * is fired.\n * @param {string} styleText Style to register.\n * @param {IStyleRecord} styleRecord Existing style record to re-apply.\n */\nfunction applyThemableStyles(stylesArray, styleRecord) {\n    if (_themeState.loadStyles) {\n        _themeState.loadStyles(resolveThemableArray(stylesArray).styleString, stylesArray);\n    }\n    else {\n        registerStyles(stylesArray);\n    }\n}\n/**\n * Registers a set theme tokens to find and replace. If styles were already registered, they will be\n * replaced.\n * @param {theme} theme JSON object of theme tokens to values.\n */\nfunction loadTheme(theme) {\n    _themeState.theme = theme;\n    // reload styles.\n    reloadStyles();\n}\nexports.loadTheme = loadTheme;\n/**\n * Clear already registered style elements and style records in theme_State object\n * @param option - specify which group of registered styles should be cleared.\n * Default to be both themable and non-themable styles will be cleared\n */\nfunction clearStyles(option) {\n    if (option === void 0) { option = 3 /* all */; }\n    if (option === 3 /* all */ || option === 2 /* onlyNonThemable */) {\n        clearStylesInternal(_themeState.registeredStyles);\n        _themeState.registeredStyles = [];\n    }\n    if (option === 3 /* all */ || option === 1 /* onlyThemable */) {\n        clearStylesInternal(_themeState.registeredThemableStyles);\n        _themeState.registeredThemableStyles = [];\n    }\n}\nexports.clearStyles = clearStyles;\nfunction clearStylesInternal(records) {\n    records.forEach(function (styleRecord) {\n        var styleElement = styleRecord && styleRecord.styleElement;\n        if (styleElement && styleElement.parentElement) {\n            styleElement.parentElement.removeChild(styleElement);\n        }\n    });\n}\n/**\n * Reloads styles.\n */\nfunction reloadStyles() {\n    if (_themeState.theme) {\n        var themableStyles = [];\n        for (var _i = 0, _a = _themeState.registeredThemableStyles; _i < _a.length; _i++) {\n            var styleRecord = _a[_i];\n            themableStyles.push(styleRecord.themableStyle);\n        }\n        if (themableStyles.length > 0) {\n            clearStyles(1 /* onlyThemable */);\n            applyThemableStyles([].concat.apply([], themableStyles));\n        }\n    }\n}\n/**\n * Find theme tokens and replaces them with provided theme values.\n * @param {string} styles Tokenized styles to fix.\n */\nfunction detokenize(styles) {\n    if (styles) {\n        styles = resolveThemableArray(splitStyles(styles)).styleString;\n    }\n    return styles;\n}\nexports.detokenize = detokenize;\n/**\n * Resolves ThemingInstruction objects in an array and joins the result into a string.\n * @param {ThemableArray} splitStyleArray ThemableArray to resolve and join.\n */\nfunction resolveThemableArray(splitStyleArray) {\n    var theme = _themeState.theme;\n    var themable = false;\n    // Resolve the array of theming instructions to an array of strings.\n    // Then join the array to produce the final CSS string.\n    var resolvedArray = (splitStyleArray || []).map(function (currentValue) {\n        var themeSlot = currentValue.theme;\n        if (themeSlot) {\n            themable = true;\n            // A theming annotation. Resolve it.\n            var themedValue = theme ? theme[themeSlot] : undefined;\n            var defaultValue = currentValue.defaultValue || 'inherit';\n            // Warn to console if we hit an unthemed value even when themes are provided, but only if \"DEBUG\" is true.\n            // Allow the themedValue to be undefined to explicitly request the default value.\n            if (theme &&\n                !themedValue &&\n                console &&\n                !(themeSlot in theme) &&\n                typeof DEBUG !== 'undefined' &&\n                DEBUG) {\n                console.warn(\"Theming value not provided for \\\"\" + themeSlot + \"\\\". Falling back to \\\"\" + defaultValue + \"\\\".\");\n            }\n            return themedValue || defaultValue;\n        }\n        else {\n            // A non-themable string. Preserve it.\n            return currentValue.rawString;\n        }\n    });\n    return {\n        styleString: resolvedArray.join(''),\n        themable: themable\n    };\n}\n/**\n * Split tokenized CSS into an array of strings and theme specification objects\n * @param {string} styles Tokenized styles to split.\n */\nfunction splitStyles(styles) {\n    var result = [];\n    if (styles) {\n        var pos = 0; // Current position in styles.\n        var tokenMatch = void 0;\n        while ((tokenMatch = _themeTokenRegex.exec(styles))) {\n            var matchIndex = tokenMatch.index;\n            if (matchIndex > pos) {\n                result.push({\n                    rawString: styles.substring(pos, matchIndex)\n                });\n            }\n            result.push({\n                theme: tokenMatch[1],\n                defaultValue: tokenMatch[2] // May be undefined\n            });\n            // index of the first character after the current match\n            pos = _themeTokenRegex.lastIndex;\n        }\n        // Push the rest of the string after the last match.\n        result.push({\n            rawString: styles.substring(pos)\n        });\n    }\n    return result;\n}\nexports.splitStyles = splitStyles;\n/**\n * Registers a set of style text. If it is registered too early, we will register it when the\n * window.load event is fired.\n * @param {ThemableArray} styleArray Array of IThemingInstruction objects to register.\n * @param {IStyleRecord} styleRecord May specify a style Element to update.\n */\nfunction registerStyles(styleArray) {\n    if (typeof document === 'undefined') {\n        return;\n    }\n    var head = document.getElementsByTagName('head')[0];\n    var styleElement = document.createElement('style');\n    var _a = resolveThemableArray(styleArray), styleString = _a.styleString, themable = _a.themable;\n    styleElement.setAttribute('data-load-themed-styles', 'true');\n    if (_styleNonce) {\n        styleElement.setAttribute('nonce', _styleNonce);\n    }\n    styleElement.appendChild(document.createTextNode(styleString));\n    _themeState.perf.count++;\n    head.appendChild(styleElement);\n    var ev = document.createEvent('HTMLEvents');\n    ev.initEvent('styleinsert', true /* bubbleEvent */, false /* cancelable */);\n    ev.args = {\n        newStyle: styleElement\n    };\n    document.dispatchEvent(ev);\n    var record = {\n        styleElement: styleElement,\n        themableStyle: styleArray\n    };\n    if (themable) {\n        _themeState.registeredThemableStyles.push(record);\n    }\n    else {\n        _themeState.registeredStyles.push(record);\n    }\n}\n//# sourceMappingURL=index.js.map"
+        },
+        {
+          "id": "sU/o",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "index": 7,
+          "index2": 13,
+          "size": 1920,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "karma-wp-web-part"
+          ],
+          "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "issuerId": "ty9x",
+          "issuerName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "issuerPath": [
+            {
+              "id": "ty9x",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "ty9x",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./components/KarmaWp",
+              "loc": "20:0-43"
+            },
+            {
+              "moduleId": "ty9x",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+              "type": "harmony import specifier",
+              "userRequest": "./components/KarmaWp",
+              "loc": "27:42-49"
+            }
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "var __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    };\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nimport * as React from 'react';\r\nimport styles from './KarmaWp.module.scss';\r\nimport { escape } from '@microsoft/sp-lodash-subset';\r\nvar KarmaWp = /** @class */ (function (_super) {\r\n    __extends(KarmaWp, _super);\r\n    function KarmaWp() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    KarmaWp.prototype.render = function () {\r\n        return (React.createElement(\"div\", { className: styles.karmaWp },\r\n            React.createElement(\"div\", { className: styles.container },\r\n                React.createElement(\"div\", { className: styles.row },\r\n                    React.createElement(\"div\", { className: styles.column },\r\n                        React.createElement(\"span\", { className: styles.title }, \"Welcome to SharePoint!\"),\r\n                        React.createElement(\"p\", { className: styles.subTitle }, \"Customize SharePoint experiences using Web Parts.\"),\r\n                        React.createElement(\"p\", { className: styles.description }, escape(this.props.description)),\r\n                        React.createElement(\"a\", { href: \"https://aka.ms/spfx\", className: styles.button },\r\n                            React.createElement(\"span\", { className: styles.label }, \"Learn more\")))))));\r\n    };\r\n    return KarmaWp;\r\n}(React.Component));\r\nexport default KarmaWp;\r\n"
+        },
+        {
+          "id": "ty9x",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "index": 0,
+          "index2": 14,
+          "size": 2576,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "karma-wp-web-part"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "loc": "karma-wp-web-part"
+            }
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "var __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    };\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nimport * as React from 'react';\r\nimport * as ReactDom from 'react-dom';\r\nimport { Version } from '@microsoft/sp-core-library';\r\nimport { PropertyPaneTextField } from '@microsoft/sp-property-pane';\r\nimport { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';\r\nimport * as strings from 'KarmaWpWebPartStrings';\r\nimport KarmaWp from './components/KarmaWp';\r\nvar KarmaWpWebPart = /** @class */ (function (_super) {\r\n    __extends(KarmaWpWebPart, _super);\r\n    function KarmaWpWebPart() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    KarmaWpWebPart.prototype.render = function () {\r\n        var element = React.createElement(KarmaWp, {\r\n            description: this.properties.description\r\n        });\r\n        ReactDom.render(element, this.domElement);\r\n    };\r\n    KarmaWpWebPart.prototype.onDispose = function () {\r\n        ReactDom.unmountComponentAtNode(this.domElement);\r\n    };\r\n    Object.defineProperty(KarmaWpWebPart.prototype, \"dataVersion\", {\r\n        get: function () {\r\n            return Version.parse('1.0');\r\n        },\r\n        enumerable: true,\r\n        configurable: true\r\n    });\r\n    KarmaWpWebPart.prototype.getPropertyPaneConfiguration = function () {\r\n        return {\r\n            pages: [\r\n                {\r\n                    header: {\r\n                        description: strings.PropertyPaneDescription\r\n                    },\r\n                    groups: [\r\n                        {\r\n                            groupName: strings.BasicGroupName,\r\n                            groupFields: [\r\n                                PropertyPaneTextField('description', {\r\n                                    label: strings.DescriptionFieldLabel\r\n                                })\r\n                            ]\r\n                        }\r\n                    ]\r\n                }\r\n            ]\r\n        };\r\n    };\r\n    return KarmaWpWebPart;\r\n}(BaseClientSideWebPart));\r\nexport default KarmaWpWebPart;\r\n"
+        },
+        {
+          "id": "yLpj",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\webpack\\buildin\\global.js",
+          "name": "(webpack)/buildin/global.js",
+          "index": 13,
+          "index2": 8,
+          "size": 472,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "karma-wp-web-part"
+          ],
+          "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+          "issuerId": "ruv1",
+          "issuerName": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js",
+          "issuerPath": [
+            {
+              "id": "ty9x",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+              "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+            },
+            {
+              "id": "sU/o",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+              "name": "./lib/webparts/karmaWp/components/KarmaWp.js"
+            },
+            {
+              "id": "XMf1",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.scss.js",
+              "name": "./lib/webparts/karmaWp/components/KarmaWp.module.scss.js"
+            },
+            {
+              "id": "5Nyj",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+              "name": "./lib/webparts/karmaWp/components/KarmaWp.module.css"
+            },
+            {
+              "id": "ruv1",
+              "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+              "name": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "ruv1",
+              "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+              "module": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js",
+              "moduleName": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js",
+              "type": "cjs require",
+              "userRequest": "global",
+              "loc": "1:0-56"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 5,
+          "source": "var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn this;\n})();\n\ntry {\n\t// This works if eval is allowed (see CSP)\n\tg = g || new Function(\"return this\")();\n} catch (e) {\n\t// This works if the window reference is available\n\tif (typeof window === \"object\") g = window;\n}\n\n// g can still be undefined, but nothing to do about it...\n// We return undefined, instead of nothing here, so it's\n// easier to handle this case. if(!global) { ...}\n\nmodule.exports = g;\n"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "karma-wp-web-part",
+          "request": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "26ea",
+      "identifier": "external \"@microsoft/sp-property-pane\"",
+      "name": "external \"@microsoft/sp-property-pane\"",
+      "index": 4,
+      "index2": 3,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+      "issuerId": "ty9x",
+      "issuerName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+      "issuerPath": [
+        {
+          "id": "ty9x",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "ty9x",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "@microsoft/sp-property-pane",
+          "loc": "17:0-68"
+        },
+        {
+          "moduleId": "ty9x",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "type": "harmony import specifier",
+          "userRequest": "@microsoft/sp-property-pane",
+          "loc": "53:32-53"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "id": "5Nyj",
+      "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+      "name": "./lib/webparts/karmaWp/components/KarmaWp.module.css",
+      "index": 9,
+      "index2": 10,
+      "size": 583,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.scss.js",
+      "issuerId": "XMf1",
+      "issuerName": "./lib/webparts/karmaWp/components/KarmaWp.module.scss.js",
+      "issuerPath": [
+        {
+          "id": "ty9x",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+        },
+        {
+          "id": "sU/o",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.js"
+        },
+        {
+          "id": "XMf1",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.scss.js",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.module.scss.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "XMf1",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.scss.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.module.scss.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.module.scss.js",
+          "type": "cjs require",
+          "userRequest": "./KarmaWp.module.css",
+          "loc": "2:0-31"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 3,
+      "source": "var content = require(\"!!../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/postcss-loader/src/index.js??postcss!./KarmaWp.module.css\");\nvar loader = require(\"D:\\\\MGWDev\\\\Training\\\\unit-tests-samples\\\\karma-sample\\\\node_modules\\\\@microsoft\\\\loader-load-themed-styles\\\\node_modules\\\\@microsoft\\\\load-themed-styles\\\\lib\\\\index.js\");\n\nif(typeof content === \"string\") content = [[module.id, content]];\n\n// add the styles to the DOM\nfor (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);\n\nif(content.locals) module.exports = content.locals;"
+    },
+    {
+      "id": "6ZZ6",
+      "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+      "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/karmaWp/components/KarmaWp.module.css",
+      "index": 10,
+      "index2": 7,
+      "size": 2148,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+      "issuerId": "5Nyj",
+      "issuerName": "./lib/webparts/karmaWp/components/KarmaWp.module.css",
+      "issuerPath": [
+        {
+          "id": "ty9x",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+        },
+        {
+          "id": "sU/o",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.js"
+        },
+        {
+          "id": "XMf1",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.scss.js",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.module.scss.js"
+        },
+        {
+          "id": "5Nyj",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.module.css"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "5Nyj",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.module.css",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.module.css",
+          "type": "cjs require",
+          "userRequest": "!!../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/postcss-loader/src/index.js??postcss!./KarmaWp.module.css",
+          "loc": "1:14-157"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 4,
+      "source": "exports = module.exports = require(\"../../../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".karmaWp_ef9f40d3 .container_ef9f40d3{max-width:700px;margin:0 auto;box-shadow:0 2px 4px 0 rgba(0,0,0,.2),0 25px 50px 0 rgba(0,0,0,.1)}.karmaWp_ef9f40d3 .row_ef9f40d3{margin:0 -8px;box-sizing:border-box;zoom:1;color:#fff;background-color:#005a9e;padding:20px}.karmaWp_ef9f40d3 .row_ef9f40d3:after,.karmaWp_ef9f40d3 .row_ef9f40d3:before{display:table;content:\\\"\\\";line-height:0}.karmaWp_ef9f40d3 .row_ef9f40d3:after{clear:both}.karmaWp_ef9f40d3 .column_ef9f40d3{position:relative;min-height:1px;padding-left:8px;padding-right:8px;box-sizing:border-box}[dir=ltr] .karmaWp_ef9f40d3 .column_ef9f40d3{float:left}[dir=rtl] .karmaWp_ef9f40d3 .column_ef9f40d3{float:right}.karmaWp_ef9f40d3 .column_ef9f40d3 .ms-Grid_ef9f40d3{padding:0}@media (min-width:640px){.karmaWp_ef9f40d3 .column_ef9f40d3{width:83.3333333333%}}@media (min-width:1024px){.karmaWp_ef9f40d3 .column_ef9f40d3{width:66.6666666667%}}@media (min-width:1024px){[dir=ltr] .karmaWp_ef9f40d3 .column_ef9f40d3{left:16.6666666667%}[dir=rtl] .karmaWp_ef9f40d3 .column_ef9f40d3{right:16.6666666667%}}@media (min-width:640px){[dir=ltr] .karmaWp_ef9f40d3 .column_ef9f40d3{left:8.3333333333%}[dir=rtl] .karmaWp_ef9f40d3 .column_ef9f40d3{right:8.3333333333%}}.karmaWp_ef9f40d3 .title_ef9f40d3{font-size:21px;font-weight:100;color:#fff}.karmaWp_ef9f40d3 .description_ef9f40d3,.karmaWp_ef9f40d3 .subTitle_ef9f40d3{font-size:17px;font-weight:300;color:#fff}.karmaWp_ef9f40d3 .button_ef9f40d3{text-decoration:none;height:32px;min-width:80px;background-color:#0078d4;border-color:#0078d4;color:#fff;outline:transparent;position:relative;font-family:Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:400;border-width:0;text-align:center;cursor:pointer;display:inline-block;padding:0 16px}.karmaWp_ef9f40d3 .button_ef9f40d3 .label_ef9f40d3{font-weight:600;font-size:14px;height:32px;line-height:32px;margin:0 4px;vertical-align:top;display:inline-block}\", \"\"]);\n"
+    },
+    {
+      "id": "I6O9",
+      "identifier": "external \"@microsoft/sp-loader\"",
+      "name": "external \"@microsoft/sp-loader\"",
+      "index": null,
+      "index2": null,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "id": "JPst",
+      "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\runtime\\api.js",
+      "name": "./node_modules/css-loader/dist/runtime/api.js",
+      "index": 11,
+      "index2": 6,
+      "size": 2677,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+      "issuerId": "6ZZ6",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/karmaWp/components/KarmaWp.module.css",
+      "issuerPath": [
+        {
+          "id": "ty9x",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+        },
+        {
+          "id": "sU/o",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.js"
+        },
+        {
+          "id": "XMf1",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.scss.js",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.module.scss.js"
+        },
+        {
+          "id": "5Nyj",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.module.css"
+        },
+        {
+          "id": "6ZZ6",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/karmaWp/components/KarmaWp.module.css"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "6ZZ6",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/karmaWp/components/KarmaWp.module.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/karmaWp/components/KarmaWp.module.css",
+          "type": "cjs require",
+          "userRequest": "../../../../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "1:27-93"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 5,
+      "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \"{\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    for (var i = 0; i < this.length; i++) {\n      // eslint-disable-next-line prefer-destructuring\n      var id = this[i][0];\n\n      if (id != null) {\n        alreadyImportedModules[id] = true;\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = modules[_i]; // skip already imported module\n      // this implementation is not 100% perfect for weird media query combinations\n      // when a module is imported multiple times with different media queries.\n      // I hope this will never occur (Hey this way we have smaller bundles)\n\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\n        if (mediaQuery && !item[2]) {\n          item[2] = mediaQuery;\n        } else if (mediaQuery) {\n          item[2] = \"(\".concat(item[2], \") and (\").concat(mediaQuery, \")\");\n        }\n\n        list.push(item);\n      }\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot).concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+    },
+    {
+      "id": "PVAt",
+      "identifier": "external \"KarmaWpWebPartStrings\"",
+      "name": "external \"KarmaWpWebPartStrings\"",
+      "index": 6,
+      "index2": 5,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+      "issuerId": "ty9x",
+      "issuerName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+      "issuerPath": [
+        {
+          "id": "ty9x",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "ty9x",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "KarmaWpWebPartStrings",
+          "loc": "19:0-49"
+        },
+        {
+          "moduleId": "ty9x",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "type": "harmony import specifier",
+          "userRequest": "KarmaWpWebPartStrings",
+          "loc": "47:37-68"
+        },
+        {
+          "moduleId": "ty9x",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "type": "harmony import specifier",
+          "userRequest": "KarmaWpWebPartStrings",
+          "loc": "51:39-61"
+        },
+        {
+          "moduleId": "ty9x",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "type": "harmony import specifier",
+          "userRequest": "KarmaWpWebPartStrings",
+          "loc": "54:43-72"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "id": "Pk8u",
+      "identifier": "external \"@microsoft/sp-lodash-subset\"",
+      "name": "external \"@microsoft/sp-lodash-subset\"",
+      "index": 14,
+      "index2": 12,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+      "issuerId": "sU/o",
+      "issuerName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+      "issuerPath": [
+        {
+          "id": "ty9x",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+        },
+        {
+          "id": "sU/o",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "@microsoft/sp-lodash-subset",
+          "loc": "16:0-53"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "@microsoft/sp-lodash-subset",
+          "loc": "29:84-90"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": "UWqr",
+      "identifier": "external \"@microsoft/sp-core-library\"",
+      "name": "external \"@microsoft/sp-core-library\"",
+      "index": 3,
+      "index2": 2,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+      "issuerId": "ty9x",
+      "issuerName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+      "issuerPath": [
+        {
+          "id": "ty9x",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "ty9x",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "@microsoft/sp-core-library",
+          "loc": "16:0-53"
+        },
+        {
+          "moduleId": "ty9x",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "type": "harmony import specifier",
+          "userRequest": "@microsoft/sp-core-library",
+          "loc": "37:19-26"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "id": "XMf1",
+      "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.scss.js",
+      "name": "./lib/webparts/karmaWp/components/KarmaWp.module.scss.js",
+      "index": 8,
+      "index2": 11,
+      "size": 457,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+      "issuerId": "sU/o",
+      "issuerName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+      "issuerPath": [
+        {
+          "id": "ty9x",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+        },
+        {
+          "id": "sU/o",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./KarmaWp.module.scss",
+          "loc": "15:0-43"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "./KarmaWp.module.scss",
+          "loc": "23:56-62"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "./KarmaWp.module.scss",
+          "loc": "24:52-58"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "./KarmaWp.module.scss",
+          "loc": "25:56-62"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "./KarmaWp.module.scss",
+          "loc": "26:60-66"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "./KarmaWp.module.scss",
+          "loc": "27:65-71"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "./KarmaWp.module.scss",
+          "loc": "28:62-68"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "./KarmaWp.module.scss",
+          "loc": "29:62-68"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "./KarmaWp.module.scss",
+          "loc": "30:91-97"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "./KarmaWp.module.scss",
+          "loc": "31:69-75"
+        }
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "/* tslint:disable */\r\nrequire(\"./KarmaWp.module.css\");\r\nvar styles = {\r\n    karmaWp: 'karmaWp_ef9f40d3',\r\n    container: 'container_ef9f40d3',\r\n    row: 'row_ef9f40d3',\r\n    column: 'column_ef9f40d3',\r\n    'ms-Grid': 'ms-Grid_ef9f40d3',\r\n    title: 'title_ef9f40d3',\r\n    subTitle: 'subTitle_ef9f40d3',\r\n    description: 'description_ef9f40d3',\r\n    button: 'button_ef9f40d3',\r\n    label: 'label_ef9f40d3'\r\n};\r\nexport default styles;\r\n/* tslint:enable */ \r\n"
+    },
+    {
+      "id": "br4S",
+      "identifier": "external \"@microsoft/sp-webpart-base\"",
+      "name": "external \"@microsoft/sp-webpart-base\"",
+      "index": 5,
+      "index2": 4,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+      "issuerId": "ty9x",
+      "issuerName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+      "issuerPath": [
+        {
+          "id": "ty9x",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "ty9x",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "@microsoft/sp-webpart-base",
+          "loc": "18:0-67"
+        },
+        {
+          "moduleId": "ty9x",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "type": "harmony import specifier",
+          "userRequest": "@microsoft/sp-webpart-base",
+          "loc": "64:2-23"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "id": "cDcd",
+      "identifier": "external \"react\"",
+      "name": "external \"react\"",
+      "index": 1,
+      "index2": 0,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+      "issuerId": "ty9x",
+      "issuerName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+      "issuerPath": [
+        {
+          "id": "ty9x",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "14:0-31"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "23:16-35"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "24:12-31"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "25:16-35"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "26:20-39"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "27:24-43"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "28:24-43"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "29:24-43"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "30:24-43"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "31:28-47"
+        },
+        {
+          "moduleId": "sU/o",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "34:2-17"
+        },
+        {
+          "moduleId": "ty9x",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "14:0-31"
+        },
+        {
+          "moduleId": "ty9x",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "27:22-41"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "id": "faye",
+      "identifier": "external \"react-dom\"",
+      "name": "external \"react-dom\"",
+      "index": 2,
+      "index2": 1,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+      "issuerId": "ty9x",
+      "issuerName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+      "issuerPath": [
+        {
+          "id": "ty9x",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "ty9x",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react-dom",
+          "loc": "15:0-38"
+        },
+        {
+          "moduleId": "ty9x",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "type": "harmony import specifier",
+          "userRequest": "react-dom",
+          "loc": "30:8-23"
+        },
+        {
+          "moduleId": "ty9x",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "type": "harmony import specifier",
+          "userRequest": "react-dom",
+          "loc": "33:8-39"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "id": "ruv1",
+      "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+      "name": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js",
+      "index": 12,
+      "index2": 9,
+      "size": 11360,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+      "issuerId": "5Nyj",
+      "issuerName": "./lib/webparts/karmaWp/components/KarmaWp.module.css",
+      "issuerPath": [
+        {
+          "id": "ty9x",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+        },
+        {
+          "id": "sU/o",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.js"
+        },
+        {
+          "id": "XMf1",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.scss.js",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.module.scss.js"
+        },
+        {
+          "id": "5Nyj",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.module.css"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "5Nyj",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+          "module": "./lib/webparts/karmaWp/components/KarmaWp.module.css",
+          "moduleName": "./lib/webparts/karmaWp/components/KarmaWp.module.css",
+          "type": "cjs require",
+          "userRequest": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+          "loc": "2:13-192"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 4,
+      "source": "\"use strict\";\n// Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license.\n// See LICENSE in the project root for license information.\nvar __assign = (this && this.__assign) || function () {\n    __assign = Object.assign || function(t) {\n        for (var s, i = 1, n = arguments.length; i < n; i++) {\n            s = arguments[i];\n            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\n                t[p] = s[p];\n        }\n        return t;\n    };\n    return __assign.apply(this, arguments);\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.splitStyles = exports.detokenize = exports.clearStyles = exports.loadTheme = exports.flush = exports.configureRunMode = exports.configureLoadStyles = exports.loadStyles = void 0;\n// Store the theming state in __themeState__ global scope for reuse in the case of duplicate\n// load-themed-styles hosted on the page.\nvar _root = typeof window === 'undefined' ? global : window; // eslint-disable-line @typescript-eslint/no-explicit-any\n// Nonce string to inject into script tag if one provided. This is used in CSP (Content Security Policy).\nvar _styleNonce = _root && _root.CSPSettings && _root.CSPSettings.nonce;\nvar _themeState = initializeThemeState();\n/**\n * Matches theming tokens. For example, \"[theme: themeSlotName, default: #FFF]\" (including the quotes).\n */\nvar _themeTokenRegex = /[\\'\\\"]\\[theme:\\s*(\\w+)\\s*(?:\\,\\s*default:\\s*([\\\\\"\\']?[\\.\\,\\(\\)\\#\\-\\s\\w]*[\\.\\,\\(\\)\\#\\-\\w][\\\"\\']?))?\\s*\\][\\'\\\"]/g;\nvar now = function () {\n    return typeof performance !== 'undefined' && !!performance.now ? performance.now() : Date.now();\n};\nfunction measure(func) {\n    var start = now();\n    func();\n    var end = now();\n    _themeState.perf.duration += end - start;\n}\n/**\n * initialize global state object\n */\nfunction initializeThemeState() {\n    var state = _root.__themeState__ || {\n        theme: undefined,\n        lastStyleElement: undefined,\n        registeredStyles: []\n    };\n    if (!state.runState) {\n        state = __assign(__assign({}, state), { perf: {\n                count: 0,\n                duration: 0\n            }, runState: {\n                flushTimer: 0,\n                mode: 0 /* sync */,\n                buffer: []\n            } });\n    }\n    if (!state.registeredThemableStyles) {\n        state = __assign(__assign({}, state), { registeredThemableStyles: [] });\n    }\n    _root.__themeState__ = state;\n    return state;\n}\n/**\n * Loads a set of style text. If it is registered too early, we will register it when the window.load\n * event is fired.\n * @param {string | ThemableArray} styles Themable style text to register.\n * @param {boolean} loadAsync When true, always load styles in async mode, irrespective of current sync mode.\n */\nfunction loadStyles(styles, loadAsync) {\n    if (loadAsync === void 0) { loadAsync = false; }\n    measure(function () {\n        var styleParts = Array.isArray(styles) ? styles : splitStyles(styles);\n        var _a = _themeState.runState, mode = _a.mode, buffer = _a.buffer, flushTimer = _a.flushTimer;\n        if (loadAsync || mode === 1 /* async */) {\n            buffer.push(styleParts);\n            if (!flushTimer) {\n                _themeState.runState.flushTimer = asyncLoadStyles();\n            }\n        }\n        else {\n            applyThemableStyles(styleParts);\n        }\n    });\n}\nexports.loadStyles = loadStyles;\n/**\n * Allows for customizable loadStyles logic. e.g. for server side rendering application\n * @param {(processedStyles: string, rawStyles?: string | ThemableArray) => void}\n * a loadStyles callback that gets called when styles are loaded or reloaded\n */\nfunction configureLoadStyles(loadStylesFn) {\n    _themeState.loadStyles = loadStylesFn;\n}\nexports.configureLoadStyles = configureLoadStyles;\n/**\n * Configure run mode of load-themable-styles\n * @param mode load-themable-styles run mode, async or sync\n */\nfunction configureRunMode(mode) {\n    _themeState.runState.mode = mode;\n}\nexports.configureRunMode = configureRunMode;\n/**\n * external code can call flush to synchronously force processing of currently buffered styles\n */\nfunction flush() {\n    measure(function () {\n        var styleArrays = _themeState.runState.buffer.slice();\n        _themeState.runState.buffer = [];\n        var mergedStyleArray = [].concat.apply([], styleArrays);\n        if (mergedStyleArray.length > 0) {\n            applyThemableStyles(mergedStyleArray);\n        }\n    });\n}\nexports.flush = flush;\n/**\n * register async loadStyles\n */\nfunction asyncLoadStyles() {\n    return setTimeout(function () {\n        _themeState.runState.flushTimer = 0;\n        flush();\n    }, 0);\n}\n/**\n * Loads a set of style text. If it is registered too early, we will register it when the window.load event\n * is fired.\n * @param {string} styleText Style to register.\n * @param {IStyleRecord} styleRecord Existing style record to re-apply.\n */\nfunction applyThemableStyles(stylesArray, styleRecord) {\n    if (_themeState.loadStyles) {\n        _themeState.loadStyles(resolveThemableArray(stylesArray).styleString, stylesArray);\n    }\n    else {\n        registerStyles(stylesArray);\n    }\n}\n/**\n * Registers a set theme tokens to find and replace. If styles were already registered, they will be\n * replaced.\n * @param {theme} theme JSON object of theme tokens to values.\n */\nfunction loadTheme(theme) {\n    _themeState.theme = theme;\n    // reload styles.\n    reloadStyles();\n}\nexports.loadTheme = loadTheme;\n/**\n * Clear already registered style elements and style records in theme_State object\n * @param option - specify which group of registered styles should be cleared.\n * Default to be both themable and non-themable styles will be cleared\n */\nfunction clearStyles(option) {\n    if (option === void 0) { option = 3 /* all */; }\n    if (option === 3 /* all */ || option === 2 /* onlyNonThemable */) {\n        clearStylesInternal(_themeState.registeredStyles);\n        _themeState.registeredStyles = [];\n    }\n    if (option === 3 /* all */ || option === 1 /* onlyThemable */) {\n        clearStylesInternal(_themeState.registeredThemableStyles);\n        _themeState.registeredThemableStyles = [];\n    }\n}\nexports.clearStyles = clearStyles;\nfunction clearStylesInternal(records) {\n    records.forEach(function (styleRecord) {\n        var styleElement = styleRecord && styleRecord.styleElement;\n        if (styleElement && styleElement.parentElement) {\n            styleElement.parentElement.removeChild(styleElement);\n        }\n    });\n}\n/**\n * Reloads styles.\n */\nfunction reloadStyles() {\n    if (_themeState.theme) {\n        var themableStyles = [];\n        for (var _i = 0, _a = _themeState.registeredThemableStyles; _i < _a.length; _i++) {\n            var styleRecord = _a[_i];\n            themableStyles.push(styleRecord.themableStyle);\n        }\n        if (themableStyles.length > 0) {\n            clearStyles(1 /* onlyThemable */);\n            applyThemableStyles([].concat.apply([], themableStyles));\n        }\n    }\n}\n/**\n * Find theme tokens and replaces them with provided theme values.\n * @param {string} styles Tokenized styles to fix.\n */\nfunction detokenize(styles) {\n    if (styles) {\n        styles = resolveThemableArray(splitStyles(styles)).styleString;\n    }\n    return styles;\n}\nexports.detokenize = detokenize;\n/**\n * Resolves ThemingInstruction objects in an array and joins the result into a string.\n * @param {ThemableArray} splitStyleArray ThemableArray to resolve and join.\n */\nfunction resolveThemableArray(splitStyleArray) {\n    var theme = _themeState.theme;\n    var themable = false;\n    // Resolve the array of theming instructions to an array of strings.\n    // Then join the array to produce the final CSS string.\n    var resolvedArray = (splitStyleArray || []).map(function (currentValue) {\n        var themeSlot = currentValue.theme;\n        if (themeSlot) {\n            themable = true;\n            // A theming annotation. Resolve it.\n            var themedValue = theme ? theme[themeSlot] : undefined;\n            var defaultValue = currentValue.defaultValue || 'inherit';\n            // Warn to console if we hit an unthemed value even when themes are provided, but only if \"DEBUG\" is true.\n            // Allow the themedValue to be undefined to explicitly request the default value.\n            if (theme &&\n                !themedValue &&\n                console &&\n                !(themeSlot in theme) &&\n                typeof DEBUG !== 'undefined' &&\n                DEBUG) {\n                console.warn(\"Theming value not provided for \\\"\" + themeSlot + \"\\\". Falling back to \\\"\" + defaultValue + \"\\\".\");\n            }\n            return themedValue || defaultValue;\n        }\n        else {\n            // A non-themable string. Preserve it.\n            return currentValue.rawString;\n        }\n    });\n    return {\n        styleString: resolvedArray.join(''),\n        themable: themable\n    };\n}\n/**\n * Split tokenized CSS into an array of strings and theme specification objects\n * @param {string} styles Tokenized styles to split.\n */\nfunction splitStyles(styles) {\n    var result = [];\n    if (styles) {\n        var pos = 0; // Current position in styles.\n        var tokenMatch = void 0;\n        while ((tokenMatch = _themeTokenRegex.exec(styles))) {\n            var matchIndex = tokenMatch.index;\n            if (matchIndex > pos) {\n                result.push({\n                    rawString: styles.substring(pos, matchIndex)\n                });\n            }\n            result.push({\n                theme: tokenMatch[1],\n                defaultValue: tokenMatch[2] // May be undefined\n            });\n            // index of the first character after the current match\n            pos = _themeTokenRegex.lastIndex;\n        }\n        // Push the rest of the string after the last match.\n        result.push({\n            rawString: styles.substring(pos)\n        });\n    }\n    return result;\n}\nexports.splitStyles = splitStyles;\n/**\n * Registers a set of style text. If it is registered too early, we will register it when the\n * window.load event is fired.\n * @param {ThemableArray} styleArray Array of IThemingInstruction objects to register.\n * @param {IStyleRecord} styleRecord May specify a style Element to update.\n */\nfunction registerStyles(styleArray) {\n    if (typeof document === 'undefined') {\n        return;\n    }\n    var head = document.getElementsByTagName('head')[0];\n    var styleElement = document.createElement('style');\n    var _a = resolveThemableArray(styleArray), styleString = _a.styleString, themable = _a.themable;\n    styleElement.setAttribute('data-load-themed-styles', 'true');\n    if (_styleNonce) {\n        styleElement.setAttribute('nonce', _styleNonce);\n    }\n    styleElement.appendChild(document.createTextNode(styleString));\n    _themeState.perf.count++;\n    head.appendChild(styleElement);\n    var ev = document.createEvent('HTMLEvents');\n    ev.initEvent('styleinsert', true /* bubbleEvent */, false /* cancelable */);\n    ev.args = {\n        newStyle: styleElement\n    };\n    document.dispatchEvent(ev);\n    var record = {\n        styleElement: styleElement,\n        themableStyle: styleArray\n    };\n    if (themable) {\n        _themeState.registeredThemableStyles.push(record);\n    }\n    else {\n        _themeState.registeredStyles.push(record);\n    }\n}\n//# sourceMappingURL=index.js.map"
+    },
+    {
+      "id": "sU/o",
+      "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+      "name": "./lib/webparts/karmaWp/components/KarmaWp.js",
+      "index": 7,
+      "index2": 13,
+      "size": 1920,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+      "issuerId": "ty9x",
+      "issuerName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+      "issuerPath": [
+        {
+          "id": "ty9x",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "ty9x",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./components/KarmaWp",
+          "loc": "20:0-43"
+        },
+        {
+          "moduleId": "ty9x",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "module": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "moduleName": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+          "type": "harmony import specifier",
+          "userRequest": "./components/KarmaWp",
+          "loc": "27:42-49"
+        }
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "var __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    };\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nimport * as React from 'react';\r\nimport styles from './KarmaWp.module.scss';\r\nimport { escape } from '@microsoft/sp-lodash-subset';\r\nvar KarmaWp = /** @class */ (function (_super) {\r\n    __extends(KarmaWp, _super);\r\n    function KarmaWp() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    KarmaWp.prototype.render = function () {\r\n        return (React.createElement(\"div\", { className: styles.karmaWp },\r\n            React.createElement(\"div\", { className: styles.container },\r\n                React.createElement(\"div\", { className: styles.row },\r\n                    React.createElement(\"div\", { className: styles.column },\r\n                        React.createElement(\"span\", { className: styles.title }, \"Welcome to SharePoint!\"),\r\n                        React.createElement(\"p\", { className: styles.subTitle }, \"Customize SharePoint experiences using Web Parts.\"),\r\n                        React.createElement(\"p\", { className: styles.description }, escape(this.props.description)),\r\n                        React.createElement(\"a\", { href: \"https://aka.ms/spfx\", className: styles.button },\r\n                            React.createElement(\"span\", { className: styles.label }, \"Learn more\")))))));\r\n    };\r\n    return KarmaWp;\r\n}(React.Component));\r\nexport default KarmaWp;\r\n"
+    },
+    {
+      "id": "ty9x",
+      "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+      "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js",
+      "index": 0,
+      "index2": 14,
+      "size": 2576,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "loc": "karma-wp-web-part"
+        }
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "var __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    };\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nimport * as React from 'react';\r\nimport * as ReactDom from 'react-dom';\r\nimport { Version } from '@microsoft/sp-core-library';\r\nimport { PropertyPaneTextField } from '@microsoft/sp-property-pane';\r\nimport { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';\r\nimport * as strings from 'KarmaWpWebPartStrings';\r\nimport KarmaWp from './components/KarmaWp';\r\nvar KarmaWpWebPart = /** @class */ (function (_super) {\r\n    __extends(KarmaWpWebPart, _super);\r\n    function KarmaWpWebPart() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    KarmaWpWebPart.prototype.render = function () {\r\n        var element = React.createElement(KarmaWp, {\r\n            description: this.properties.description\r\n        });\r\n        ReactDom.render(element, this.domElement);\r\n    };\r\n    KarmaWpWebPart.prototype.onDispose = function () {\r\n        ReactDom.unmountComponentAtNode(this.domElement);\r\n    };\r\n    Object.defineProperty(KarmaWpWebPart.prototype, \"dataVersion\", {\r\n        get: function () {\r\n            return Version.parse('1.0');\r\n        },\r\n        enumerable: true,\r\n        configurable: true\r\n    });\r\n    KarmaWpWebPart.prototype.getPropertyPaneConfiguration = function () {\r\n        return {\r\n            pages: [\r\n                {\r\n                    header: {\r\n                        description: strings.PropertyPaneDescription\r\n                    },\r\n                    groups: [\r\n                        {\r\n                            groupName: strings.BasicGroupName,\r\n                            groupFields: [\r\n                                PropertyPaneTextField('description', {\r\n                                    label: strings.DescriptionFieldLabel\r\n                                })\r\n                            ]\r\n                        }\r\n                    ]\r\n                }\r\n            ]\r\n        };\r\n    };\r\n    return KarmaWpWebPart;\r\n}(BaseClientSideWebPart));\r\nexport default KarmaWpWebPart;\r\n"
+    },
+    {
+      "id": "yLpj",
+      "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\webpack\\buildin\\global.js",
+      "name": "(webpack)/buildin/global.js",
+      "index": 13,
+      "index2": 8,
+      "size": 472,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "karma-wp-web-part"
+      ],
+      "issuer": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+      "issuerId": "ruv1",
+      "issuerName": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js",
+      "issuerPath": [
+        {
+          "id": "ty9x",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\KarmaWpWebPart.js",
+          "name": "./lib/webparts/karmaWp/KarmaWpWebPart.js"
+        },
+        {
+          "id": "sU/o",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.js",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.js"
+        },
+        {
+          "id": "XMf1",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\source-map-loader\\index.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.scss.js",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.module.scss.js"
+        },
+        {
+          "id": "5Nyj",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\css-loader\\dist\\cjs.js!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\lib\\webparts\\karmaWp\\components\\KarmaWp.module.css",
+          "name": "./lib/webparts/karmaWp/components/KarmaWp.module.css"
+        },
+        {
+          "id": "ruv1",
+          "identifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+          "name": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "ruv1",
+          "moduleIdentifier": "D:\\MGWDev\\Training\\unit-tests-samples\\karma-sample\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+          "module": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js",
+          "moduleName": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js",
+          "type": "cjs require",
+          "userRequest": "global",
+          "loc": "1:0-56"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 5,
+      "source": "var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn this;\n})();\n\ntry {\n\t// This works if eval is allowed (see CSP)\n\tg = g || new Function(\"return this\")();\n} catch (e) {\n\t// This works if the window reference is available\n\tif (typeof window === \"object\") g = window;\n}\n\n// g can still be undefined, but nothing to do about it...\n// We return undefined, instead of nothing here, so it's\n// easier to handle this case. if(!global) { ...}\n\nmodule.exports = g;\n"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": []
+}

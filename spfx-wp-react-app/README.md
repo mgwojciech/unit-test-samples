@@ -21,7 +21,7 @@ Run
 ```
 npm start
 ```
-to start developing against local serve
+to start developing against local server
 
 Go to spfx-my-documents
 Run 

@@ -1,10 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authentication.OpenIdConnect;
-using Microsoft.Graph;
 using Microsoft.Identity.Web;
 using PnP.Core.Auth;
-using SB.M365.Installer.Utils;
 
-namespace SB.M365.Installer.Web.Utilities;
+namespace MGWDev.FullStack.Web.Utilities;
 
 public class AccessTokenUtilities
 {
@@ -15,16 +13,22 @@ public class AccessTokenUtilities
         TokenAcquisitionService = tokenAcquisitionService;
         Configuration = configuration;
     }
-    public string GetAccessToken(string resource, HttpRequest request)
+    /// <summary>
+    /// Gets access token to provided resource with default scope
+    /// </summary>
+    /// <param name="resource">App id uri of a resource</param>
+    /// <param name="jwtToken">JWT token to be used with On Behalf Flow</param>
+    /// <returns>Access token</returns>
+    public string GetAccessToken(string resource, string jwtToken = null)
     {
         string token = "";
-        if (request.Headers.Authorization.FirstOrDefault() != null)
+        if (!String.IsNullOrEmpty(jwtToken))
         {
+            //change organizations to tenantId for single tenant app
             OnBehalfOfAuthenticationProvider provider = new OnBehalfOfAuthenticationProvider(Configuration.GetValue<string>("AzureAd:ClientId"),
-                "organizations", StringUtils.CovertToSecureString(Configuration.GetValue<string>("AzureAd:ClientSeret")), () =>
+                "organizations", StringUtilities.CovertToSecureString(Configuration.GetValue<string>("AzureAd:ClientSecret")), () =>
                 {
-                    string token = request.Headers.Authorization.FirstOrDefault().Replace("Bearer ", "");
-                    return token;
+                    return jwtToken;
                 });
             token = provider.GetAccessTokenAsync(new Uri($"{resource}/.default")).Result;
         }

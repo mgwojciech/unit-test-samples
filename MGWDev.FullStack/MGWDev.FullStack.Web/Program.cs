@@ -1,3 +1,5 @@
+using MGWDev.FullStack.Web;
+
 Host.CreateDefaultBuilder(args)
     .ConfigureWebHostDefaults(webBuilder =>
     {

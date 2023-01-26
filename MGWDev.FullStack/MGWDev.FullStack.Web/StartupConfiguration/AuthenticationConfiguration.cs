@@ -6,7 +6,7 @@ using Microsoft.Identity.Web;
 using Microsoft.Identity.Web.UI;
 using Microsoft.Net.Http.Headers;
 
-namespace SB.M365.Installer.Web.StartupConfiguration
+namespace MGWDev.FullStack.Web.StartupConfiguration
 {
     public static class AuthenticationConfiguration
     {

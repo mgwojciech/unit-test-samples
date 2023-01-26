@@ -33,3 +33,5 @@ logs
 
 # Styles Generated Code
 *.scss.ts
+
+**/appsettings.Development.json

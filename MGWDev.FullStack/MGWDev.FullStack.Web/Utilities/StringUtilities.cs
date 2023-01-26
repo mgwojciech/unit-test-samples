@@ -1,6 +1,17 @@
-﻿namespace MGWDev.FullStack.Web.Utilities;
+﻿using System.Security;
 
-public class StringUtils
+namespace MGWDev.FullStack.Web.Utilities;
+
+public class StringUtilities
 {
-    
+    public static SecureString CovertToSecureString(string value)
+    {
+        string secret = value;
+        SecureString secure = new SecureString();
+        foreach (char c in secret)
+        {
+            secure.AppendChar(c);
+        }
+        return secure;
+    }
 }

@@ -1,25 +1,22 @@
-**/.vs/**
-**/packages/**
-**/bin/**
-**/obj/**
-
 # Logs
 logs
 *.log
-**/npm-debug.log*
+npm-debug.log*
 
 # Dependency directories
-**/node_modules
+node_modules
 
 # Build generated files
-**/dist
-**/lib
-*/solution
-**/temp
-**/*.sppkg
+dist
+lib
+release
+solution
+temp
+*.sppkg
+.heft
 
 # Coverage directory used by tools like istanbul
-**/coverage
+coverage
 
 # OSX
 .DS_Store
@@ -27,11 +24,11 @@ logs
 # Visual Studio files
 .ntvs_analysis.dat
 .vs
+bin
+obj
 
 # Resx Generated Code
 *.resx.ts
 
 # Styles Generated Code
 *.scss.ts
-
-**/appsettings.Development.json

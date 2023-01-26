@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-full-stack-client-side-solution",
+    "id": "fa60777c-cf97-4513-937a-d6236f162f42",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.0-beta.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-full-stack description"
+      },
+      "longDescription": {
+        "default": "spfx-full-stack description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-full-stack Feature",
+        "description": "The feature that activates elements of the spfx-full-stack solution.",
+        "id": "aea870e9-d85c-4cce-a53b-c1abfa61894c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-full-stack.sppkg"
+  }
+}

@@ -35,3 +35,4 @@ logs
 *.scss.ts
 
 **/appsettings.Development.json
+sp-react/.env.development

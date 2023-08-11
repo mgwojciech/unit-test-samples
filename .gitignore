@@ -36,3 +36,4 @@ logs
 
 **/appsettings.Development.json
 sp-react/.env.development
+graph-mock-client/.env.development

@@ -38,3 +38,4 @@ logs
 sp-react/.env.development
 graph-mock-client/.env.development
 mgt-batching/.env.development
+custom-navigation/.env.development
